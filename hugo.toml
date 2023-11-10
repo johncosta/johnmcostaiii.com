@@ -3,6 +3,7 @@ languageCode = 'en-us'
 title = 'johnmcostaiii.com'
 theme = 'prav'
 disqusShortname = "johnmcostaiii"
+googleanalytics = "UA-24469699-1"
 
 [params]
     title = "johnmcostaiii.com"
