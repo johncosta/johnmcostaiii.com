@@ -1,4 +1,12 @@
 baseURL = '/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'johnmcostaiii.com'
 theme = 'prav'
+
+[params]
+    title = "johnmcostaiii.com"
+    tagline = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    author = "John M Costa, III"
+    authorImgPath = "/img/author.png"
+    authorBlurb = "Father, Husband, Amateur Athlete, Aspiring Gardener, Outdoor Enthusiast"
+    features = ["posts", "comments"]
