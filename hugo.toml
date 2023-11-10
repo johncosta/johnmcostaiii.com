@@ -2,6 +2,7 @@ baseURL = '/'
 languageCode = 'en-us'
 title = 'johnmcostaiii.com'
 theme = 'prav'
+disqusShortname = "johnmcostaiii"
 
 [params]
     title = "johnmcostaiii.com"
@@ -10,3 +11,11 @@ theme = 'prav'
     authorImgPath = "/img/author.png"
     authorBlurb = "Father, Husband, Amateur Athlete, Aspiring Gardener, Outdoor Enthusiast"
     features = ["posts", "comments"]
+
+
+[social]
+  email = "mailto:john.costa@gmail.com"
+  facebook = "https://www.facebook.com/johnmcostaIII/"
+  twitter = "https://twitter.com/johncosta"
+  github = "https://github.com/johncosta"
+  linkedin = "https://www.linkedin.com/in/johnmcosta/"
