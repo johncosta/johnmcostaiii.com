@@ -1,4 +1,4 @@
-# johnmcosta.com
+# johnmcostaiii.com
 My personal blog
 
 ## Related Links
