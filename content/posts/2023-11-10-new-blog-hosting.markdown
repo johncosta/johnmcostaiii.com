@@ -11,7 +11,7 @@ started over 10 years ago.
 
 ## Choosing the Static Site Generator
 
-Given I already had some content formatted in markdown and the old site which used a version of Hugo, I didn't 
+Given I already had some content formatted in Markdown and the old site which used a version of Hugo, I didn't 
 really spend a significant amount of time re-considering a static site to drive it. 
 
 I did take a few moments to see what was out there and found this list of [Awesome Static Generators](https://github.com/myles/awesome-static-generators). 
@@ -41,7 +41,7 @@ that I'll be able to save a little on hosting costs. And by save a little, I mea
 
 Here's some of the steps I needed to take to move it over:
 
-1) Create a new GitHub repository. So that I can find it easier later on, I used the domain as the repository name. See the repo here: https://github.com/johncosta/johnmcostaiii.com
+1) Create a new GitHub repository. So that I can find it easier later on, I used the domain as the repository name. See the repository here: https://github.com/johncosta/johnmcostaiii.com
 
 2) I looked through the Hugo theme site for a theme that I wanted: https://themes.gohugo.io/
 
