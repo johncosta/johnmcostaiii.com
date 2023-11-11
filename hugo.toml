@@ -7,7 +7,7 @@ googleanalytics = "UA-24469699-1"
 
 [params]
     title = "johnmcostaiii.com"
-    tagline = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    tagline = "Father, Husband, Amateur Athlete, Aspiring Gardener, Outdoor Enthusiast."
     author = "John M Costa, III"
     authorImgPath = "/img/author.png"
     authorBlurb = "Father, Husband, Amateur Athlete, Aspiring Gardener, Outdoor Enthusiast"
