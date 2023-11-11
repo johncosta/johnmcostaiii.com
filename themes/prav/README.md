@@ -74,7 +74,7 @@ theme = "hugo-theme-prav"
 pygmentsCodeFences = "true"
 pygmentsStyle = "perldoc"
 
-# If you want to track using GA or use disqus for comments, uncomment the 
+# If you want to track using GA or use disqus for comments, uncomment the
 # following and add the correct values
 #googleanalytics = ""
 #disqusShortname = ""

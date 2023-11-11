@@ -3,10 +3,7 @@ author: "Pravin Paratey"
 title: "About Theme Prav"
 date: "2019-12-31"
 description: "A little more about this theme"
-tags: [
-    "theme",
-    "prav",
-]
+tags: ["theme", "prav"]
 ---
 
 ## History
@@ -27,10 +24,10 @@ This is a two column theme with a navbar at the top and a sidebar to the right. 
 
 ### Beautiful tables and images through purecss.
 
-   Name | Age
---------|------
-    Bob | 27
-  Alice | 23
+| Name  | Age |
+| ----- | --- |
+| Bob   | 27  |
+| Alice | 23  |
 
 ### Syntax highlighting by pygments
 
@@ -42,6 +39,7 @@ Set your pygments theme by setting,
 Example highlighted code,
 
 {{< highlight html >}}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -82,25 +80,26 @@ pygmentsStyle = "perldoc"
 #disqusShortname = ""
 
 # Below settings are used throughout the theme. Please update
+
 [params]
-  title = "Hugo Theme - Prav"
-  tagline = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-  author = "Pravin Paratey"
+title = "Hugo Theme - Prav"
+tagline = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+author = "Pravin Paratey"
 
 [social]
-  email = "mailto:pravin@paratey.com"
-  facebook = "https://www.facebook.com/pravin.paratey"
-  twitter = "http://twitter.com/pravin"
-  medium = "https://www.medium.com/@pravin"
-  github = "https://github.com/pravin"
-  linkedin = "http://uk.linkedin.com/in/pravinp"
-
+email = "mailto:pravin@paratey.com"
+facebook = "https://www.facebook.com/pravin.paratey"
+twitter = "http://twitter.com/pravin"
+medium = "https://www.medium.com/@pravin"
+github = "https://github.com/pravin"
+linkedin = "http://uk.linkedin.com/in/pravinp"
 
 # Set unsafe mode to allow markdownify to work with goldmark
+
 [markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
 {{< /highlight >}}
 
 ## In closing
