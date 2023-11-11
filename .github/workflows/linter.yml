@@ -58,3 +58,5 @@ jobs:
           VALIDATE_ALL_CODEBASE: false
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # set yaml lint line length to 120
+          YAML_LINT_LINE_LENGTH: 120

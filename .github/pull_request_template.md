@@ -1,15 +1,24 @@
-- **Please check if the PR fulfills these requirements**
+# Overview
 
-* [ ] The commit message follows our guidelines
-* [ ] Tests for the changes have been added (for bug fixes / features)
-* [ ] Docs have been added / updated (for bug fixes / features)
+The following is a template for pull requests.  Replace this text with a description of the pull request.
 
-- **What kind of change does this PR introduce?** (Bug fix, feature, docs update, ...)
+## Checklist
+- [ ] The commit message follows our guidelines
+- [ ] Tests for the changes have been added (for bugfixes / features)
+- [ ] Docs have been added / updated (for bugfixes / features)
 
-- **What is the current behavior?** (You can also link to an open issue here)
+## Supporting Information
 
-- **What is the new behavior (if this is a feature change)?**
+* **What kind of change does this PR introduce?** (Bugfix, feature, docs update, ...)
 
-- **Does this PR introduce a breaking change?** (What changes might users need to make in their application due to this PR?)
 
-- **Other information**:
+* **What is the current behavior?** (You can also link to an open issue here)
+
+
+* **What is the new behavior (if this is a feature change)?**
+
+
+* **Does this PR introduce a breaking change?** (What changes might users need to make in their application due to this PR?)
+
+
+* **Other information**:
