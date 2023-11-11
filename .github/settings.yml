@@ -61,7 +61,7 @@ repository:
 # Labels: define labels for Issues and Pull Requests
 labels:
   - name: bug
-    color: CC0000
+    color: '#CC0000'
     description: An issue with the system 🐛.
 
   - name: feature
@@ -69,9 +69,9 @@ labels:
     color: '#336699'
     description: New functionality.
 
-  - name: Help Wanted
-    # Provide a new name to rename an existing label
-    new_name: first-timers-only
+  - name: good-first-issue
+    color: '#C2E0C6'
+    description: Good issue for newcomers.
 
 # Milestones: define milestones for Issues and Pull Requests
 milestones:
