@@ -1,24 +1,18 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    {{- partial "header.html" . -}}
-    <body>
-        <div class="container">
+  {{- partial "header.html" . -}}
+  <body>
+    <div class="container">
+      {{- partial "menu.html" . -}}
 
-            {{- partial "menu.html" . -}}
-            
-            <div class="pure-g">
-                {{- block "main" . }}{{- end }}
+      <div class="pure-g">
+        {{- block "main" . }}{{- end }} {{ if (or (eq .Page.Kind "page") (eq
+        .RelPermalink "/")) }} {{- block "sidebar" . }} {{- partial
+        "sidebar.html" . -}} {{- end }} {{ end }}
+      </div>
 
-                {{ if (or (eq .Page.Kind "page") (eq .RelPermalink "/")) }}
-                {{- block "sidebar" . }}
-                    {{- partial "sidebar.html" . -}}
-                {{- end }}
-                {{ end }}
-            </div>
-            
-            {{- partial "footer.html" . -}}
-
-        </div>
-        {{- partial "custom_footer.html" . -}}
-    </body>
+      {{- partial "footer.html" . -}}
+    </div>
+    {{- partial "custom_footer.html" . -}}
+  </body>
 </html>

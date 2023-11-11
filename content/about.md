@@ -2,9 +2,7 @@
 title: "About Me"
 date: "2023-11-10"
 description: "A little bit about me"
-tags: [
-    "about", "me"
-]
+tags: ["about", "me"]
 ---
 
 ## Biography
