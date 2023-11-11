@@ -5,7 +5,7 @@ comments: true
 tags: ["GitHub","pages","blog","hosting","digitalocean"]
 ---
 
-Credit goes to [this](https://stackoverflow.com/questions/16454088/can-GitHub-pages-cname-file-contain-more-than-one-domain) StackOverflow answer,
+Credit goes to [this](https://stackoverflow.com/questions/16454088/can-GitHub-pages-cname-file-contain-more-than-one-domain) Stack Overflow answer,
 but note, not the accepted answer it's the one currently below.
 
 1) Create an extra repository for your domain. I used the name of the domain as the repository name. See <https://GitHub.com/johncosta/johnmcostaiii.net>.
