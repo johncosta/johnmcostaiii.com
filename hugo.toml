@@ -20,3 +20,8 @@ googleanalytics = "UA-24469699-1"
   twitter = "https://twitter.com/johncosta"
   github = "https://github.com/johncosta"
   linkedin = "https://www.linkedin.com/in/johnmcosta/"
+
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true
