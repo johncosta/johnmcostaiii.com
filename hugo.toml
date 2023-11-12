@@ -7,7 +7,7 @@ googleanalytics = "UA-24469699-1"
 
 [params]
     title = "johnmcostaiii.com"
-    tagline = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    tagline = "Father, Husband, Amateur Athlete, Aspiring Gardener, Outdoor Enthusiast."
     author = "John M Costa, III"
     authorImgPath = "/img/author.png"
     authorBlurb = "Father, Husband, Amateur Athlete, Aspiring Gardener, Outdoor Enthusiast"
@@ -20,3 +20,8 @@ googleanalytics = "UA-24469699-1"
   twitter = "https://twitter.com/johncosta"
   github = "https://github.com/johncosta"
   linkedin = "https://www.linkedin.com/in/johnmcosta/"
+
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true

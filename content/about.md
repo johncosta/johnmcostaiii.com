@@ -7,7 +7,7 @@ tags: ["about", "me"]
 
 ## Biography
 
-Engineer with diverse experience and a track record of achieving results. Known for precision, integrity, and a passion for collaborative problem-solving. Committed to building trust and delivering innovative solutions through automation.
+Engineering leader with diverse experience and a track record of achieving results. Known for precision, integrity, and a passion for collaborative problem-solving. Committed to building trust and delivering innovative solutions through automation.
 
 I've worked at early stage startups which include [Docker](https://www.linkedin.com/company/docker/) and [CashStar](https://www.linkedin.com/company/cashstar/)
 
