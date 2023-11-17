@@ -7,8 +7,8 @@ tags: ["book", "reading", "list", "2023", "career development", "leadership"]
 
 # Summary
 Hocking's introduction starts with "Who do you want to become?"[^1].  She reflects on where her journey started and how 
-she got to where she is today.  What really resonated to me was that she looked for someone to she here how to advance 
-in her career, develop as a leader, and grow as a person. 
+she got to where she is today.  What really resonated to me was that she looked for someone to show her how to advance 
+in her career, develop as a leader, and grow as a person.
 
 She goes on to explain how mindsets shifts will play a role in the process of showing up for yourself and others. She
 lists 4 types of mindsets and how they can be used to help you grow.[^2] To build on these mindsets, she provides "Bold 
