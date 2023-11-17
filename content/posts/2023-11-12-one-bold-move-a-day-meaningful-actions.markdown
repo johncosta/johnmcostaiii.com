@@ -7,22 +7,22 @@ tags: ["book", "reading", "list", "2023", "career development", "leadership"]
 
 # Summary
 Hocking's introduction starts with "Who do you want to become?"[^1].  She reflects on where her journey started and how 
-she got to where she is today.  What really resonated to me was that she looked for someone to she here how to advance 
-in her career, develop as a leader, and grow as a person. 
+she got to where she is today.  What really resonated to me was that she looked for someone to show her how to advance 
+in her career, develop as a leader, and grow as a person.
 
 She goes on to explain how mindsets shifts will play a role in the process of showing up for yourself and others. She
 lists 4 types of mindsets and how they can be used to help you grow.[^2] To build on these mindsets, she provides "Bold 
 Moves to Make Now", a series of actionable items and prompts to help you get started.
 
-Chapter's one through three set the stage for the latter chapters. There's a number of actionable self-reflection items 
+Chapters one through three set the stage for the latter chapters. There's a number of actionable self-reflection items 
 and a series of prompts Hocking walks the reader through to get them thinking about the bold moves they can take.
 
-Chapter's four through six are where the book starts to channel the self reflection into career advice. Hocking provides 
+Chapters four through six are where the book starts to channel the self reflection into career advice. Hocking provides 
 advice how to lift others up and how to invest in yourself.  She talks about Bold move performance patterns and how one 
 can advance their career faster if they understand the patterns and apply them to learning, hobbies, physical activity, 
 and rest.
 
-The rest of the chapters coalece and frame the previous chapters into what Hocking calls "The Bold Move Mindset".
+The rest of the chapters coalesce and frame the previous chapters into what Hocking calls "The Bold Move Mindset".
 
 ## Recommendation
 At a glance Hocking's book is a short read with immersive, experience driven, and actionable content.  I recommend this
