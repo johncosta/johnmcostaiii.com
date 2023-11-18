@@ -1,3 +1,5 @@
+{{ define "title" }}{{ .Title }}{{ end }}
+
 {{ if or (.Date) (ne .Params.Kind "page") }}
 <div class="date">
     <time pubdate="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
