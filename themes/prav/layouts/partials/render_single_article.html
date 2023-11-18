@@ -1,4 +1,6 @@
-{{ define "title" }}{{ .Title }}{{ end }}
+{{ define "title" }}
+    {{ .Title }} - {{ .Site.Params.tagline }} - {{ .Site.Params.author }}
+{{ end }}
 
 {{ if or (.Date) (ne .Params.Kind "page") }}
 <div class="date">
