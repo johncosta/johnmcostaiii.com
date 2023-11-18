@@ -25,9 +25,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {{ hugo.Generator }}
 
-    {{- if .Params.tags }}
-    <meta name="keywords" content="{{ delimit .Params.tags "," }}">
-    {{- end }}
+    {{ block "keywords" . }}
+        {{- if .Params.tags }}
+        <meta name="keywords" content="{{ delimit .Params.tags "," }}">
+        {{- end }}
+    {{ end }}
 
     {{ $descText := "" -}}
     {{ if .Description -}}
