@@ -47,4 +47,3 @@ The values commented as old already existed in my WSGI.  Those listed where requ
 <iframe src="https://rpm.newrelic.com/public/charts/7H7hpcDRU3n" width="500" height="300" scrolling="no" frameborder="no"></iframe>
 
 <iframe src="https://rpm.newrelic.com/public/charts/9pgfWxGR3fN" width="500" height="300" scrolling="no" frameborder="no"></iframe>
-

@@ -49,5 +49,3 @@ urlpatterns += patterns (''
 ```
 
 You can find the full thread out on StackOverflow <a href='http://stackoverflow.com/questions/4996177/django-sitemap-module-object-has-no-attribute-values' target='_tab'>here</a>.
-
-

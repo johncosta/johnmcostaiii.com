@@ -5,21 +5,21 @@ comments: true
 tags: ["github","pages","blog","hosting","digitalocean"]
 ---
 
-It was recently suggested by a mentor that I get back into blogging.  I'll create an entry dedicated on 
-this topic, but the byproduct of this discussion inspired me to resurface and re-host the blog I had 
+It was recently suggested by a mentor that I get back into blogging.  I'll create an entry dedicated on
+this topic, but the byproduct of this discussion inspired me to resurface and re-host the blog I had
 started over 10 years ago.
 
 ## Choosing the Static Site Generator
 
-Given I already had some content formatted in Markdown and the old site which used a version of Hugo, I didn't 
-really spend a significant amount of time re-considering a static site to drive it. 
+Given I already had some content formatted in Markdown and the old site which used a version of Hugo, I didn't
+really spend a significant amount of time re-considering a static site to drive it.
 
-I did take a few moments to see what was out there and found this list of [Awesome Static Generators](https://github.com/myles/awesome-static-generators). 
-I also peeked at reddit to see if there was [any consensus out there](https://www.reddit.com/r/webdev/comments/121jhdw/whats_the_best_static_site_generator_currently/), 
-but as expected there was little and it was mostly opinion based. 
+I did take a few moments to see what was out there and found this list of [Awesome Static Generators](https://github.com/myles/awesome-static-generators).
+I also peeked at reddit to see if there was [any consensus out there](https://www.reddit.com/r/webdev/comments/121jhdw/whats_the_best_static_site_generator_currently/),
+but as expected there was little and it was mostly opinion based.
 
 Gitlab has a write-up [suggesting an approach static site generator](https://about.gitlab.com/blog/2022/04/18/comparing-static-site-generators/)
-which was a little closer to what I was hoping to read through, but they didn't draw any conclusions.  This was also not 
+which was a little closer to what I was hoping to read through, but they didn't draw any conclusions.  This was also not
 unexpected as they probably can't really back one vs another as they could host any of them.
 
 <!-- more -->
@@ -36,7 +36,7 @@ To summarize the article, see the following table:
 
 ## Setup
 
-I'm a little embarassed to admit this, but I've been late to the party in using [GitHub pages](https://pages.github.com/). Instead, I had a container running the site on a droplet on DigitalOcean.  One of the best parts of the move is 
+I'm a little embarassed to admit this, but I've been late to the party in using [GitHub pages](https://pages.github.com/). Instead, I had a container running the site on a droplet on DigitalOcean.  One of the best parts of the move is
 that I'll be able to save a little on hosting costs. And by save a little, I mean can start another project for a similar cost :)
 
 Here's some of the steps I needed to take to move it over:
@@ -53,24 +53,24 @@ Here's some of the steps I needed to take to move it over:
    cd quickstart
    git checkout <the theme> themes/<theme name>
    echo "theme = '<theme name'" >> hugo.toml
-   hugo server 
+   hugo server
    ```
-  
+
    **_NOTE:_** The guide uses the `ananke` theme, but I wanted something different.
 
-4) Move the generated content out of quickstart and into the root. 
+4) Move the generated content out of quickstart and into the root.
 
    **_NOTE:_** I did this to avoid the complexity of a directory.  Now everything can run from the root.
 
 5) Copy all my content into the `content` directory
 
-6) Test the site with `hugo server`. 
+6) Test the site with `hugo server`.
 
-  **_NOTE:_** I created a Makefile to start encapsulating the raw commands. 
+  **_NOTE:_** I created a Makefile to start encapsulating the raw commands.
 
 ## GitHub Actions Workflows
 
-1) Copy and paste the action workflow into the project 
+1) Copy and paste the action workflow into the project
 
 ### .github/workflows/hugo.yml
 ```yaml
@@ -113,7 +113,7 @@ jobs:
       - name: Install Hugo CLI
         run: |
           wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
-          && sudo dpkg -i ${{ runner.temp }}/hugo.deb          
+          && sudo dpkg -i ${{ runner.temp }}/hugo.deb
       - name: Install Dart Sass
         run: sudo snap install dart-sass
       - name: Checkout
@@ -135,7 +135,7 @@ jobs:
           hugo \
             --gc \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"          
+            --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
@@ -158,7 +158,7 @@ jobs:
 
 GitHub has a guide for setting up static sites which can be found here: https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site
 
-1) Set up your domain registrar. Here it points to Digital Ocean as I manage projects through them. 
+1) Set up your domain registrar. Here it points to Digital Ocean as I manage projects through them.
 
 ![Godaddy Settings](/img/new-blog-hosting/godaddy-settings.png)
 
@@ -197,5 +197,3 @@ johncosta.github.io.	3600	IN	A	185.199.109.153
 4) Set the custom domain in the GitHub Pages Settings section of the repository:
 
 ![GitHub Settings](/img/new-blog-hosting/github-settings.png)
-
-
