@@ -5,7 +5,7 @@ date: "2011-07-17"
 comments: true
 tags: ["django","readthedocs","sitemap.xml","StackOverflow"]
 ---
-I ran into an issue trying to generate a sitemap.xml file with Django's built in sitemap view.  After reading the documentation over a few times I still received the error:
+I ran into an issue trying to generate a sitemap.xml file with Django's built-in sitemap view.  After reading the documentation over a few times I still received the error:
 
 <blockquote>
 Django sitemap: 'module' object has no attribute 'values'
@@ -48,4 +48,4 @@ urlpatterns += patterns (''
 )
 ```
 
-You can find the full thread out on StackOverflow <a href='http://stackoverflow.com/questions/4996177/django-sitemap-module-object-has-no-attribute-values' target='_tab'>here</a>.
+You can find the full thread out on Stack Overflow <a href='http://stackoverflow.com/questions/4996177/django-sitemap-module-object-has-no-attribute-values' target='_tab'>here</a>.
