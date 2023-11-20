@@ -2,18 +2,18 @@ repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v2.3.0
     hooks:
-# file
+      # file
       - id: end-of-file-fixer
         description: Fixes missing end-of-file newline in files.
       - id: mixed-line-ending
-        args: ['--fix=lf']
+        args: ["--fix=lf"]
         description: Forces to replace line ending by the UNIX 'lf' character.
       - id: trailing-whitespace
         description: Trims trailing whitespace.
       - id: check-added-large-files
-        args: ['--maxkb=100']
+        args: ["--maxkb=100"]
         description: Checks for large files being added to git.
-# format
+      # format
       - id: check-yaml
         description: Checks that all yaml files are valid.
       - id: check-json
