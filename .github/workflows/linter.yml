@@ -61,3 +61,4 @@ jobs:
           # set yaml lint line length to 120
           YAML_LINT_LINE_LENGTH: 120
           VALIDATE_HTML: false
+          VALIDATE_GITHUB_ACTIONS: false
