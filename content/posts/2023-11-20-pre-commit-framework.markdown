@@ -10,8 +10,8 @@ Pre-commit is a framework for managing and maintaining multi-language pre-commit
 consistency across a set of projects or a team. Not only can it help with consistency, but it can also help with
 formatting by automatically formatting files before they are committed.
 
-## What is a git hook?[^1][^2]
-Git hooks are scripts that run before or after certain git commands. They are stored in the `.git/hooks` directory of
+## What is a git hook?
+Git hooks are scripts[^1][^2] which run before or after certain git commands. They are stored in the `.git/hooks` directory of
 your repository. Git hooks are not stored in the repository itself, so they are not version controlled. This means that
 if you want to share a git hook with your team, you will need to share the script itself.
 
