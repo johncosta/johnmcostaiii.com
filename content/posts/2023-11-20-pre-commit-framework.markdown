@@ -20,7 +20,7 @@ Pre-commit solves the problem of sharing git hooks with your team and storing co
 This framework allows for management of git hooks commonly across any project.
 
 ## Setting up pre-commit
-Pre-commit is a python package that can be installed with pip. If you're using MacOS, you can install it with brew.
+Pre-commit is a python package that can be installed with pip. If you're using macOS, you can install it with brew.
 
 ## Install Configuration
 Pre-commit uses a configuration file to determine which hooks to run and how to run them. This configuration file is
@@ -64,7 +64,7 @@ repos:
 
 ### End of File Fixer
 This hook ensures that all files have a newline at the end of the file. This is a common issue when working with
-multiple operating systems. Windows uses `\r\n` for newlines, while Linux and MacOS use `\n`. This hook will ensure
+multiple operating systems. Windows uses `\r\n` for newlines, while Linux and macOS use `\n`. This hook will ensure
 that all files have a newline at the end of the file.
 
 Not having a newline isn't just bad style, it can break some tools. [^4] For example, if you have a file that contains
