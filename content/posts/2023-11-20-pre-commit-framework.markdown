@@ -10,8 +10,8 @@ Pre-commit is a framework for managing and maintaining multi-language pre-commit
 consistency across a set of projects or a team. Not only can it help with consistency, but it can also help with
 formatting by automatically formatting files before they are committed.
 
-## What is a git hook?[^1][^2]
-Git hooks are scripts that run before or after certain git commands. They are stored in the `.git/hooks` directory of
+## What is a git hook?
+Git hooks are scripts[^1][^2] that run before or after certain git commands. They are stored in the `.git/hooks` directory of
 your repository. Git hooks are not stored in the repository itself, so they are not version controlled. This means that
 if you want to share a git hook with your team, you will need to share the script itself.
 
@@ -104,12 +104,12 @@ will check for large files being added to the repository.
 Errant commas, missing quotes, and other syntax errors can be difficult to find in configuration files. These hooks will
 check for syntax errors in the specified file types.
 
-[^1] https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks#:~:text=The%20pre%2Dcommit%20hook%20is,to%20inspect%20in%20the%20code.
-[^2] https://git-scm.com/docs/git-hook
-[^3] https://pre-commit.com
-[^4] https://stackoverflow.com/questions/5813311/whats-the-significance-of-the-no-newline-at-end-of-file-log
-[^5] https://stackoverflow.com/questions/729692/why-should-text-files-end-with-a-newline
-[^6] https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/V1_chap03.html#tag_03_206
+[^1]: https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks#:~:text=The%20pre%2Dcommit%20hook%20is,to%20inspect%20in%20the%20code.
+[^2]: https://git-scm.com/docs/git-hook
+[^3]: https://pre-commit.com
+[^4]: https://stackoverflow.com/questions/5813311/whats-the-significance-of-the-no-newline-at-end-of-file-log
+[^5]: https://stackoverflow.com/questions/729692/why-should-text-files-end-with-a-newline
+[^6]: https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/V1_chap03.html#tag_03_206
 
 ## Conclusion
 Pre-commit is a great tool for ensuring consistency across a set of projects or a team. It can also help with
