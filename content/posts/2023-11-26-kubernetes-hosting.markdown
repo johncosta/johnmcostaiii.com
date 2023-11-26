@@ -15,7 +15,7 @@ For others, there could be other dimensions which are more important. For exampl
 compliance requirements, you might want to look at the security and compliance features of the platform and rate them
 accordingly.
 
-For me and my project, these are not yet siginificant concerns.
+For me and my project, these are not yet significant concerns.
 
 ## Hosting Platform Options
 An AI Assisted search via OpenAI's ChatGPT[^7] for Kubernetes hosting platforms yields the following results:
@@ -70,8 +70,8 @@ Monthly Pricing (as of November 2023[^6]):
 GitHub mentions Developer Experience (DevEx)[^5] as productivity, impact, and satisfaction. My thought is to document my
 experience so that other's can evaluate the platforms for themselves.
 
-Given the pricing schedule above, it's not currently pheasable for me to fully evaluate all the platforms at the same
-time.  Instead, I'll focus on the most cost-effective one, DigitalOcean. If given the opportunity and necessesity, I'll
+Given the pricing schedule above, it's not currently feasible for me to fully evaluate all the platforms at the same
+time.  Instead, I'll focus on the most cost-effective one, DigitalOcean. If given the opportunity and necessity, I'll
 evaluate the other platforms in the future.
 
 In a follow-up article, I'll report my observations and experience. For now, I'll leave this as a placeholder.
