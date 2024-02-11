@@ -1,0 +1,79 @@
+---
+title: "Recommended Reading"
+date: "2024-02-08"
+comments: true
+tags: ["5x15", "growth", "advocate"]
+---
+
+## Overview
+I've found this less in smaller companies, but sometimes in larger companies, colleagues will take credit for the work
+of others. This is a toxic behavior that can lead to a lack of trust and a lack of collaboration. It's important to
+recognize the work of others and to give credit where credit is due.
+
+While this wouldn't be the only reason for doing so, one of the solutions I've found to help erode the toxic behavior
+is to use 5x15 reports to advodacte for the work of one's self, project, or team.
+
+## 5x15
+The 5x15 report is a weekly report that is sent to your manager. Yvon Chouinard, founder and CEO of outdoor equipment
+company Patagonia®, devised the 5-15 Report in the 1980s.[^1] As the name implies, it should take no longer than 5
+minutes to read and no more than 15 minutes to write.
+
+If you get a chance to read about Yvon Chouinard, you'll find that he's a very interesting person. He's a rock climber,
+environmentalist, and a billionaire. He's also the founder of Patagonia, a company that is known for its environmental
+advocacy.[^2]
+
+## How to Write a 5x15 Report
+The 5x15 report is a simple report that is sent to your manager. As mentioned, it should be no longer than 5 minutes to
+read and no more than 15 minutes to write. The report should include the following:
+
+1. **Accomplishments**: What you've accomplished in the past week.
+2. **Priorities**: What you plan to accomplish in the next week.
+3. **Challenges**: Any challenges you're facing.
+4. **Stats**: Your personal stats for the week.
+
+## Accomplishments
+The accomplishments section is where you can advocate for the work of yourself, your project, or your team. This is one
+of the most critical sections of the 5x15 report. It's important to recognize the work of others and to give credit where
+credit is due, which includes crediting yourself, your project, or your team.
+
+Depending on the size of your accomplishments, try to size them in terms of the impact they've had on the company. For
+example, if you've saved the company $100,000, then you should mention that in your report. If you don't know the impact
+of your accomplishments, then you should try to find out. Perhaps put this in the challenges section of your report.
+
+In addition to charting the impact of your accomplishments, you could also frame them in terms of the company's goals and
+values. For example, if your company values Execution, then you could frame your accomplishments in terms of how they've
+helped the company execute on its goals.  As an engineer, I sometimes forget about the soft skills that are required to be successful in the workplace. The 5x15
+is a great way to highlight where you've used these soft skills to be successful.
+
+## Priorities
+This should be a list of your priorities for the next week. This is a great way to set expectations with your manager
+and provide an opportunity to change the priorities if they're not aligned with the company's goals and values at that
+time.
+
+In general, priorities shouldn't change too much from week to week. If they do, then you should try to find out why.
+
+## Challenges
+This isn't a section to complain about your job. This is a section to highlight the challenges you're facing and to
+provide an opportunity for your manager to help you overcome them. If you're not facing any challenges, perhaps you're
+not pushing yourself, project, or team. Try to provide potential solutions to the challenges you're facing along with
+the challenges themselves. This will show that you're proactive and that you're thinking about how to overcome the
+challenges you're facing without needing to be told what to do.
+
+## Stats
+This is a section to provide your personal stats for the week.  These stats should be meaningful to you and your
+manager and probably something like Energy, Credibility, Quality of Life, Skills, and Social Capital as resources.  This
+should be your dashboard if you were to have one.[^3]
+
+Something new I'm thinking about trying is to include more insight into how I'm pacing myself.  Stretching, Executing,
+Coasting could be three states of flow for the given week.[^4] Personally, I would find this useful to know if my reports
+where Stretching or Coasting as this would be a queue on whether they have additional capacity to take on more.
+
+## Summary
+The 5x15 report is a great way to communicate with your manager and can be used to set the agenda for your 1:1s. If
+it's not already part of your company's culture, then I would recommend trying to introduce it. It's a great way to
+advocate for the work of yourself, your project, or your team.
+
+[^1]: https://www.mindtools.com/aog8dj2/5-15-reports
+[^2]: https://en.wikipedia.org/wiki/Yvon_Chouinard
+[^3]: The Staff Engineer's Path, Tanya Reilly, 2022, O'Reilly Media, Inc. p.121
+[^4]: The Software Engineer's Guidebook, Gergely Orosz, 2023, Pragmatic Engineer, p.32
