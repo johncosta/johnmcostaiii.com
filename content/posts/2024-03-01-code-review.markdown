@@ -67,7 +67,7 @@ approach well before the code is written.  This is also a great way to get buy-i
 
 ## Additional Considerations
 Google's [Standard of Code Review](https://github.com/google/eng-practices/blob/master/review/reviewer/standard.md#the-standard-of-code-review)
-mentions that the primary goal of the code review is to ensure that "the overall code health of Google's code base is
+mentions that the primary goal of the code review is to ensure that "the overall code health of Google's codebase is
 improving over time". This might be good for a big company like Google, but I feel that if you prioritize people over
 code, the code will naturally improve over time.  This is why I like the idea of using code reviews as a learning and
 knowledge sharing opportunity.
