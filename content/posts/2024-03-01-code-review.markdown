@@ -72,7 +72,7 @@ improving over time". This might be good for a big company like Google, but I fe
 code, the code will naturally improve over time.  This is why I like the idea of using code reviews as a learning and
 knowledge sharing opportunity.
 
-Additionally, womething that resonated with me from [How to Do Code Reviews Like a Human (Part One)](https://mtlynch.io/human-code-reviews-1/),
+Additionally, something that resonated with me from [How to Do Code Reviews Like a Human (Part One)](https://mtlynch.io/human-code-reviews-1/),
 is that code reviews should be about the code, not the person.  To help avoid some pitfalls use these techniques
 1) never say "you" 2) Frame feedback as requests 3) Tie notes to principles, not opinions.
 
