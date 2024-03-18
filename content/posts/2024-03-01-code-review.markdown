@@ -33,8 +33,9 @@ The code review should consider if the code is efficient, not wasting resources,
 ## Priorities
 To follow these principles, I try to review code with the following priorities in mind:
 
-> **NOTE**: I realize while writing this, there's a few assumptions about the development environment that I'm making,
-> most that a version control system is being used and that the code is being reviewed in a pull request.
+> **NOTE**: I realize while writing this, there's a few assumptions about the development environment that I'm making.
+> One is that a version control system is being used and that the code is being reviewed in a pull request.  Another
+> is that the code is being reviewed by people who you work closely with and that you trust.
 
 1) Is the code functional?
 
