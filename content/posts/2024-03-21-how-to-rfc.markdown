@@ -1,5 +1,5 @@
 ---
-title: "Reviewing Code"
+title: "Introducing RFCs to Share Ideas"
 date: "2024-03-21"
 comments: true
 tags: ["code", "design", "idea", "share", "principles"]
