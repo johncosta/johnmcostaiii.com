@@ -23,7 +23,7 @@ and a proposed solution.  It's a great way to get feedback on your ideas and to 
 Per Wikipedia[^1]:
 
 In 1969, Steve Croker invented the RFC system. He did this to create a way to record unofficial notes on the development
-of ARPANET.  RFCs have since become official documents of Internet specifications, communications protocols, procedures,
+of ARPANET.  RFCs have since become official documents of internet specifications, communications protocols, procedures,
 and events.
 
 There are so many great resources on how to write an RFC.  [This post from the Pragmatic Engineer](https://newsletter.pragmaticengineer.com/p/software-engineering-rfc-and-design)
