@@ -30,12 +30,18 @@ that it should not introduce any new security vulnerabilities, and that it shoul
 ### Optimization Opportunities
 The code review should consider if the code is efficient, not wasting resources, and is scaleable.
 
-## Priorities
-To follow these principles, I try to review code with the following priorities in mind:
+## Assumptions
+After the first pass through this blog post, I realized while writing this, there's a few assumptions about the
+environment that I'm making.
 
-> **NOTE**: I realize while writing this, there's a few assumptions about the development environment that I'm making.
-> One is that a version control system is being used and that the code is being reviewed in a pull request.  Another
-> is that the code is being reviewed by people who you work closely with and that you trust.
+One is that a version control system is being used and that the code is being reviewed in a pull request. This assumes
+healthy use of a version control system.
+
+Another is that the code is being reviewed by teammates who you work closely with and that you trust to give and receive
+feedback and with positive intent.
+
+## Priorities
+To follow the principles above, I try to review code with the following priorities in mind:
 
 1) Is the code functional?
 
@@ -53,13 +59,13 @@ Self-Commenting[^3] Code practices, not instead of.  The code should also have b
 
 3) Is the code secure?
 
-Thirdly, I try to look at the code from a security perspective.   Admittedly, this is an area I'm learning more about.
+Thirdly, I try to look at the code from a security perspective. Admittedly, this is an area I'm learning more about.
 With that said, I delegate much of this to automated tools which cover things like OWASP® Top 10 and CWE/SANS Top 25.
 
 4) Can the code be optimized?
 
-Lastly, I try to look at the code from an optimization perspective.  This means that the code should be efficient and not
-waste resources.  It should also be scalable.
+Lastly, I try to look at the code from an optimization perspective.  This means that the code should be efficient and
+not waste resources.  It should also be scalable.
 
 ## Design and architecture
 Something I've been trying to do more of is using an RFCs (Request for Comments) ahead of writing code for larger
@@ -75,7 +81,11 @@ knowledge sharing opportunity.
 
 Additionally, something that resonated with me from [How to Do Code Reviews Like a Human (Part One)](https://mtlynch.io/human-code-reviews-1/),
 is that code reviews should be about the code, not the person.  To help avoid some pitfalls use these techniques
-1) never say "you" 2) Frame feedback as requests 3) Tie notes to principles, not opinions.
+mentioned in the post:
+
+1) never say "you"
+2) Frame feedback as requests
+3) Tie notes to principles, not opinions.
 
 ## Checklist
 The following is a checklist that's hopefully useful for pull requests.  The idea is to use these to be consistent in
@@ -86,20 +96,23 @@ Checklist:
 - [ ] How
     - Does the code comply with the RFC (Request for Comments), if one exists?
     - Does the code accomplish the feature(s) it was designed to accomplish?
+    - Is there documentation? README, CSI, Self-Commenting Code?
+
 - [ ] What
     - Are there tests? Do they cover the happy path, edge cases, and error handling?
-    - Is there documentation? README, CSI, Self-Commenting Code?
     - Are linting and static analysis tools being used? If so, are they passing?
     - Are there any security vulnerabilities? Is the project up to date?
     - Are there any optimization opportunities?
       - Are there opportunities to reduce redundant code ([DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)?
       - Does it follow [SOLID](https://www.digitalocean.com/community/conceptual-articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design) principles?
+
 - [ ] Follow-Up/TODOs
-  - [ ] Are there any follow-up items that could be addressed?
+  - Are there any follow-up items that could be addressed?
+
 - [ ] Feedback
-  - [ ] Is the feedback framed as a request?
-  - [ ] Is the feedback tied to principles, not opinions?
-  - [ ] Does the feedback avoid using "you"?
+  - Is the feedback framed as a request?
+  - Is the feedback tied to principles, not opinions?
+  - Does the feedback avoid using "you"?
 
 ## References
 

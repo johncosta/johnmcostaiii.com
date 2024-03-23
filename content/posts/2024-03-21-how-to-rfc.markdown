@@ -1,0 +1,150 @@
+---
+title: "Reviewing Code"
+date: "2024-03-21"
+comments: true
+tags: ["code", "design", "idea", "share", "principles"]
+---
+
+## Overview
+There are a lot of positive benefits of being on a remote team. Finding ways to connect with your team and build
+relationships is important. One way to do this is to share your ideas and have discussions about various design topics.
+This is a great way to learn from your peers and to share your knowledge with them.  It's also a great way to build
+trust and a sense of community through the activity of writing and healthy discussion with your peers.
+
+In addition to connecting with your team and building relationships, sharing your ideas is a great way towards building
+a writing culture. Writing is a great way to document your thought process and to share it with others.  For me,
+writing is a way to become more concise with my thoughts and to be more clear in my communication.
+
+One approach to sharing ideas is to write an RFC (Request for Comments).  This is a document that outlines a problem
+and a proposed solution.  It's a great way to get feedback on your ideas and to build consensus around them.
+
+## What is an RFC?
+
+Per Wikipedia[^1]:
+
+In 1969, Steve Croker invented the RFC system. He did this to create a way to record unofficial notes on the development
+of ARPANET.  RFCs have since become official documents of internet specifications, communications protocols, procedures,
+and events.
+
+There are so many great resources on how to write an RFC.  [This post from the Pragmatic Engineer](https://newsletter.pragmaticengineer.com/p/software-engineering-rfc-and-design)
+is a great place to start and lists a lot of great resources on the topic.
+
+I've come to know RFCs as a templated format for sharing ideas and seeking consensus.  They range from very formal to
+informal.  They can be used for a variety of things, such as proposing a new feature, discussing a problem, or
+documenting a decision.
+
+## How to Write an RFC
+There are plenty of resources on how to write an RFC as they've been around for a while.  Here are a few different
+formats I've come across and am interested in learning more about and trying:
+
+* https://www.rfc-editor.org/rfc/rfc7322
+* https://www.industrialempathy.com/posts/design-docs-at-google/
+* [Google Docs RFC Template](https://docs.google.com/document/d/1EM5ORZ8sO-g678jNc2nHMAkGjX5-6DuB6EkhjsNcOXo/edit#)
+
+## Keep Track of Your RFCs
+Keeping track of the status for each RFC is important.  This could be as simple as a spreadsheet, a more formal
+system like GitHub issues.  The idea is to have a way to track the status of each RFC and to make sure that they're
+being reviewed and acted upon. Keep your RFCs organized and easy to find.  This could be as simple as a folder in
+Google Drive or in a GitHub repository.
+
+- Draft
+- Review
+- Approved
+- Discarded
+- Deprecated
+
+## Sample RFC
+
+```text
+Title: Using RFCs to Share Ideas
+Authors:
+John Costa
+
+1 Executive Summary
+The primary problem this RFC proposal is solving is how to arrive at a consensus. Documenting architecture decisions
+would be done elseware.
+
+2 Motivation
+Often times there's a lot of great ideas that come up in discussions.  Unfortunately, these ideas never get documented
+and are lost. Without a semi-formal process, it's easy for ideas to get lost. This is a great way to document your
+thought process and to share it with others.
+
+3 Proposed Implementation
+The following proposal is a simplified version of a Request for Comment process based on the following published
+resource. Much inspiration for this proposal and in some cases whole segments have been drawn from these resources:
+
+* https://cwiki.apache.org/confluence/display/GEODE/Lightweight+RFC+Process
+* https://philcalcado.com/2018/11/19/a_structured_rfc_process.html
+
+Collaboration
+Comments and feedback should be made in the RFC document itself. This way, all feedback is in one place and can be
+easily referenced or referred to.
+
+Authors must address all comments written by the deadline. This doesn't mean every comment and suggestion must be
+accepted and incorporated, but they must be carefully read and responded to. Comments written after the deadline may be
+addressed by the author, but they should be considered as a lower priority.
+
+Every RFC has a lifecycle. The life cycle has the following phases:
+
+* Draft: This is the initial state of the RFC, before the author(s) have started the discussion and are still working on the proposal.
+* Review: This is the state where the RFC is being discussed and reviewed by the team.
+* Approved: This is the state where the RFC has been approved and is ready to be implemented. It does not mean that the RFC is perfect, but that the team has reached a consensus that it is good enough to be implemented.
+* Discarded: This is the state where the RFC has been discarded. This can happen for various reasons, such as the proposal being outdated, the team not reaching a consensus, or the proposal being too risky.
+* Deprecated: This is the state where the RFC has been deprecated. This can happen when the proposal has been implemented and is no longer relevant, or when the proposal has been replaced by a better one.
+
+Approval
+The proposal should be posted with a date by which the author would like to see the approval decision to be made. How
+much time is given to comment depends on the size and complexity of the proposed changes. Driving the actual decisions
+should follow the lazy majority approach.
+
+Blocking
+If there are any blocking issues, the author should be able to escalate the issue to the team lead or the team. A block
+should have a reason and, within a reasonable time frame, a solution should be proposed.
+
+When to write an RFC?
+Writing an RFC should be entirely voluntary. There is always the option of going straight to a pull request. However,
+for larger changes, it might be wise to de-risk the risk of rejection of the pull request by first gathering input from
+the team.
+
+Immutability
+Once approved the existing body of the RFC should remain immutable.
+
+4 Metrics & Dashboards
+There are no explicit metrics or dashboards for this proposal. The RFC process is a lightweight process that is meant to
+be flexible and adaptable to the needs of the team.
+
+5 Drawbacks
+- Slow: The RFC process can take time
+- Unpredictable: The rate of new RFCs is not controlled
+- No backpressure: There is no mechanism to control the implementation of RFCs
+- No explicit prioritization: RFCs are implicitly prioritized by teams, but this is not visible
+- May clash with other processes: RFCs may not be needed for smaller things
+- In corporate settings, the RFC process should have a decision-making process that is clear and transparent
+
+6 Alternatives
+- ADRs (Architecture Decision Records)
+- Design Docs
+- Hierarchical, democratic, or consensus-driven decision-making
+
+7 Potential Impact and Dependencies
+The desired impact of this proposal is to have a more structured way to share ideas and to build consensus around them.
+
+8 Unresolved questions
+- None
+
+9 Conclusion
+This RFC is a proposal for a lightweight RFC process and can be used for remote teams looking to build consensus around
+ideas.
+```
+
+## References
+The following are some references that I've found useful in my research:
+
+[^1]: https://en.wikipedia.org/wiki/Request_for_Comments#:~:text=The%20RFC%20system%20was%20invented,protocols%2C%20procedures%2C%20and%20events.
+* [https://www.rfc-editor.org/rfc/rfc7322](https://www.rfc-editor.org/rfc/rfc7322)
+* [https://newsletter.pragmaticengineer.com/p/software-engineering-rfc-and-design](https://newsletter.pragmaticengineer.com/p/software-engineering-rfc-and-design)
+* [https://leaddev.com/technical-decision-making/thorough-team-guide-rfcs](https://leaddev.com/technical-decision-making/thorough-team-guide-rfcs)
+* [https://stackoverflow.com/questions/2302290/how-to-write-and-propose-an-rfc](https://stackoverflow.com/questions/2302290/how-to-write-and-propose-an-rfc)
+* [https://blog.pragmaticengineer.com/scaling-engineering-teams-via-writing-things-down-rfcs/](https://blog.pragmaticengineer.com/scaling-engineering-teams-via-writing-things-down-rfcs/)
+* [https://cwiki.apache.org/confluence/display/GEODE/Lightweight+RFC+Process](https://cwiki.apache.org/confluence/display/GEODE/Lightweight+RFC+Process)
+* [https://candost.blog/how-and-why-rfcs-fail/](https://candost.blog/how-and-why-rfcs-fail/)

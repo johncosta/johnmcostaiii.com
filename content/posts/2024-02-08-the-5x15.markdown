@@ -68,6 +68,12 @@ Something new I'm thinking about trying is to include more insight into how I'm 
 Coasting could be three states of flow for the given week.[^4] Personally, I would find this useful to know if my reports
 where Stretching or Coasting as this would be a queue on whether they have additional capacity to take on more.
 
+## Follow-up
+Once you've established the process of sending 5x15 reports, you should check in with your manager to see if they're
+finding them useful. If they're not, then you should try to find out why. If they are, then you should try to find out
+how you can make them more useful.  Depending on the feedback, you might need to adjust the format or the
+content of the report.
+
 ## Summary
 The 5x15 report is a great way to communicate with your manager and can be used to set the agenda for your 1:1s. If
 it's not already part of your company's culture, then I would recommend trying to introduce it. It's a great way to

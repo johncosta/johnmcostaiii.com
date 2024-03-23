@@ -1,0 +1,15 @@
+---
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+name: broken-link-check
+jobs:
+  check:
+    name: broken-link-check
+    runs-on: ubuntu-latest
+    steps:
+      - name: broken-link-check
+        uses: technote-space/broken-link-checker-action@v2
