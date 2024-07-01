@@ -121,9 +121,9 @@ Some of my favorites nuggets include:
 
 ## Further reading on Pragmatism
 
-* https://blog.liblab.com/pragmatic-engineers-philosophy-first-part/
-* https://arxiv.org/pdf/1912.02071
-* https://pkritiotis.io/technical-decision-making-fast-paced-environments/
+* <https://blog.liblab.com/pragmatic-engineers-philosophy-first-part/>
+* <https://arxiv.org/pdf/1912.02071>
+* <https://pkritiotis.io/technical-decision-making-fast-paced-environments/>
 
 ## Wrapping it up
 
