@@ -48,90 +48,76 @@ takes a process-based approach and includes a checklist for performing the optim
 * Implementation
 * Evaluation
 
-Each checklist is a series of questions that are categorized into three types.
-
-* M(andatory) questions need to be answered with ”yes” to make optimization a valuable effort.
-* C(larification) questions (What?) are aimed to qualify the setup of the whole process.
-* TMTB questions(How? How much?) are the ones that benefit from ”the more the better”.
+The following describes each step in the process:
 
 #### Scoping and Problem analysis
 
-| Question                                                               | Category  |
-|------------------------------------------------------------------------|-----------|
-| Can the problem not be solved easily without optimization?             | M         |
-| What are alternative solution approaches?                              | C         |
-| What is part of the investigation, what is not?                        | C         |
-| Who are the key stakeholders and decision-makers?                      | C         |
-| How important is the problem?                                          | TMTB      |
-| How much time and money can be invested to solve the problem?          | TMTB      |
-| How much is the optimization problem aligned with business objectives? | TMTB      |
-| How much impact has an optimized solution in the problem context?      | TMTB      |
+The first and most obvious step in the process is to ask if the problem can be solved easily. Easily solved problems
+help sidestep the need for additional time investment.  When looking for an easy solution, consider alternatives as
+well.
+
+Understand the stakeholders and decision makers around the problem. How important is this to them? How much time and
+effort can be invested in solving the problem? What's the budget associated to solving the problem, considering both time
+and money?
+
+Which approach best aligns with the business objectives and how would optimization benefit the problem context?
 
 #### Modeling and Problem formulation
 
-| Question                                                      | Category |
-|---------------------------------------------------------------|----------|
-| What are the key independent problem variables?               | C        |
-| What is a reasonable granularity for problem formu- lation?   | C        |
-| What are the dependent variables?                             | C        |
-| What are the human resource, budget, and time con- straints?  | C        |
-| What are the technological constraints?                       | C        |
+Depending on the complexity of the problem, work to break it down into smaller, more manageable parts. Identify key
+variables, constraints, and any dependencies.
+
+Model project resourcing, budget and time for each phase of the project.
+
+Identify technological constraints and dependencies.
 
 #### Solution Design
 
-| Question                                                                                                 | Category |
-|----------------------------------------------------------------------------------------------------------|----------|
-| What baseline solution exist to compare with?                                                            | C        |
-| What are possible solution method alternatives and which ones have proven successful in similar context? | C        |
-| Which related tools  exist?                                                                              | TMTB     |
-| What are the expectations on optimization solutions (heuristic vs approximation vs exact)?               | C        |
-| Is it search for just one (optimized) solution or for a set of solutions?                                | C        |
-| What scenarios are planned for running the algorithms?                                                   | C        |
-| How much would the optimization process benefit from interaction with the decision makers?               | TMTB     |
+Is there a solution already available that can be used as a baseline? If so, how does the proposed solution compare to
+the baseline?
+
+What are the perceived expectations for the optimized approach?
 
 #### Data collection
 
-| Question                                             | Category |
-|------------------------------------------------------|----------|
-| Is all necessary information available?              | M        |
-| Is all available information also reliable?          | TMTB     |
-| Is there a need for data cleaning?                   | C        |
-| Is there agreement between stakeholders on the data? | TMTB     |
+What data is available and what data is needed to solve the problem?
+
+How reliable is the data? Is there a need for data cleaning?
 
 #### Optimization
 
-| Question                                                                                                                 | Category |
-|--------------------------------------------------------------------------------------------------------------------------|----------|
-| Which parameter settings are made and why?                                                                               | C        |
-| Should the parameter settings be varied and if so, how?                                                                  | C        |
-| For randomized algorithms (e.g., bio-inspired algo- rithms), how many replications are needed to make sound conclusions? | C        |
-| Is there a time constraint for running the solution algorithm?                                                           | C        |
-| What are the termination criteria for the optimization algorithm?                                                        | C        |
+What settings are made and why? How do they vary?
 
 #### Validation
 
-| Question                                                                  | Category |
-|---------------------------------------------------------------------------|----------|
-| How much do the generated solutions make sense in the problem context?    | TMTB     |
-| How much do stakeholders agree with the proposed solution(s)?             | TMTB     |
-| In case of conflicts, how they can be resolved?                           | C        |
-| How robust is the proposed solution against changes of input data?        | TMTB     |
+What are the criteria for validation? How are they measured?
+
+Do the stakeholders agree with the proposed solution?
 
 #### Implementation
 
-| Question                                                                                                             | Category |
-|----------------------------------------------------------------------------------------------------------------------|----------|
-| Are the additional considerations to select one solu- tion for final implementation in the original problem context? | C        |
-| Is there any need to adjust the proposed solution to the actual problem context?                                     | C        |
+Is there anything that needs to be adjusted?
 
 #### Evaluation
 
-| Question                                                                | Category |
-|-------------------------------------------------------------------------|----------|
-| How much does the implemented solution solve the original problem?      | TMTB     |
-| How much the implemented solution is accepted by included stakeholders? | TMTB     |
-| How much the implemented solution improves the baseline?                | TMTB     |
+How much does the implemented solution solve the original problem and is acceptable by the stakeholders?
 
+How much above the baseline does the implementation improve?
+
+### The Pragmatic Programmer
+
+The Pragmatic Programmer is a book by Andrew Hunt and David Thomas. The book is a guide to software development that
+focuses on practical advice and best practices. The authors emphasize the importance of writing clean, maintainable
+code, and of being pragmatic in your approach to software development.
+
+There are so many good nuggets in this book.  If this isn't already on your bookshelf, I highly recommend it.
+
+Some of my favorites nuggets include:
+
+* Don't live with broken windows
+* Good-Enough Software
+* Remember the bigger picture
+* Prototype to learn
 
 ## Further reading on Pragmatism
 
@@ -139,11 +125,13 @@ Each checklist is a series of questions that are categorized into three types.
 * https://arxiv.org/pdf/1912.02071
 * https://pkritiotis.io/technical-decision-making-fast-paced-environments/
 
-## Futher reading on Product Driven Development
+## Wrapping it up
 
-* https://www.lyssna.com/blog/product-driven-development/
-* https://read.highgrowthengineer.com/p/ultimate-guide-to-product-engineer
+I'm still exploring the concept of pragmatism in software development.  Going beyond just pragmatism, I'm also interested
+in how to be a better product engineer[^4] while practicing pragmatism. I'm looking forward to sharing more on this topic
+in the future.
 
 [^1]: https://en.wikipedia.org/wiki/Pragmatism
 [^2]: https://ruhe.cpsc.ucalgary.ca/publications/publications.html#books
 [^3]: https://arxiv.org/pdf/1912.02071
+[^4]: https://posthog.com/blog/what-is-a-product-engineer
