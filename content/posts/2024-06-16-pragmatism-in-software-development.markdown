@@ -131,7 +131,7 @@ I'm still exploring the concept of pragmatism in software development.  Going be
 in how to be a better product engineer[^4] while practicing pragmatism. I'm looking forward to sharing more on this topic
 in the future.
 
-[^1]: https://en.wikipedia.org/wiki/Pragmatism
-[^2]: https://ruhe.cpsc.ucalgary.ca/publications/publications.html#books
-[^3]: https://arxiv.org/pdf/1912.02071
-[^4]: https://posthog.com/blog/what-is-a-product-engineer
+[^1]: <https://en.wikipedia.org/wiki/Pragmatism>
+[^2]: <https://ruhe.cpsc.ucalgary.ca/publications/publications.html#books>
+[^3]: <https://arxiv.org/pdf/1912.02071>
+[^4]: <https://posthog.com/blog/what-is-a-product-engineer>
