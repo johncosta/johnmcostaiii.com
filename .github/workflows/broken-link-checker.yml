@@ -1,7 +1,4 @@
 ---
-permissions:
-  issues: write
-
 on:
   pull_request:
   push:
@@ -15,4 +12,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: broken-link-check
-        uses: technote-space/broken-link-checker-action@v2
+        id: link-report
+        uses: celinekurpershoek/link-checker@v1.0.2
+        with:
+          url: "https://..."
+          ignorePatterns: "github,google"
+          recursiveLinks: false
