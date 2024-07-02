@@ -6,6 +6,9 @@
 #################################
 name: Lint Code Base
 
+permissions:
+  contents: read
+
 #############################
 # Start the job on all push #
 #############################
