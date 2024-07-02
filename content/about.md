@@ -25,7 +25,6 @@ and friends.
 - Communication
 - Delivery
 - Transparency
-- Relatability
 
 ## How I try to live by these principles
 
