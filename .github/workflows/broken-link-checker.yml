@@ -1,4 +1,7 @@
 ---
+permissions:
+  issues: write
+
 on:
   pull_request:
   push:
