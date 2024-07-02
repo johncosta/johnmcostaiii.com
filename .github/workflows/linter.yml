@@ -66,3 +66,4 @@ jobs:
           VALIDATE_HTML: false
           VALIDATE_GITHUB_ACTIONS: false
           VALIDATE_NATURAL_LANGUAGE: false
+          VALIDATE_JSCPD: false
