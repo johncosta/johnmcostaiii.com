@@ -1,4 +1,7 @@
 ---
+permission:
+  contents: read
+
 on:
   pull_request:
   push:
