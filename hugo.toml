@@ -6,12 +6,6 @@ disqusShortname = "johnmcostaiii"
 googleanalytics = "UA-24469699-1"
 enableRobotsTXT = true
 
-[server]
-    [[server.headers]]
-        for = '/**'
-        [server.headers.values]
-            Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
-            Content-Security-Policy = "default-src 'self' *.johncosta.com"
 [params]
     title = "johnmcostaiii.com"
     tagline = "Engineering Leadership and Software Development"
