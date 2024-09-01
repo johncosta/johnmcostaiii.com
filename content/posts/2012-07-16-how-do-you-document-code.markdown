@@ -115,8 +115,8 @@ We document code so that we create additional value for the ourselves, our peers
 <ol>
     <li>StackOverflow (Mil, moonshadow): <a href='http://bit.ly/OC0gvM' >http://stackoverflow.com/questions/167498/what-is-less-annoying-no-source-code-documentation-or-bad-code-documentation</a>
     </li>
-    <li>The Art of Code Documentation (Drew Sikora):  <a href='<http://bit.ly/NwovOC>'>http://bit.ly/NwovOC>http://www.gamedev.net/page/resources/_/technical/general-programming/the-art-of-code-documentation-r1218</a>
+    <li>The Art of Code Documentation (Drew Sikora):  <a href='http://bit.ly/NwovOC'>http://bit.ly/NwovOC>http://www.gamedev.net/page/resources/_/technical/general-programming/the-art-of-code-documentation-r1218</a>
      <li>CodeAsDocumentation (martinfowler): <a href='http://martinfowler.com/bliki/CodeAsDocumentation.html'>http://martinfowler.com/bliki/CodeAsDocumentation.html</a></li>
-      <li>Golden rule of documenting code (Jeff Davis): <a href='<http://tek.io/Q0adZN>'>http://www.techrepublic.com/article/the-golden-rule-of-documenting-code/1032951</a></li>
-   <li>How not to write python code: <a href='<http://eikke.com/how-not-to-write-python-code'>http://eikke.com/how-not-to-write-python-code</a></li>
+      <li>Golden rule of documenting code (Jeff Davis): <a href='http://tek.io/Q0adZN'>http://www.techrepublic.com/article/the-golden-rule-of-documenting-code/1032951</a></li>
+   <li>How not to write python code: <a href='http://eikke.com/how-not-to-write-python-code'>http://eikke.com/how-not-to-write-python-code</a></li>
 </ol>
