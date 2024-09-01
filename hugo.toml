@@ -4,6 +4,7 @@ title = "johnmcostaiii.com"
 theme = 'prav'
 disqusShortname = "johnmcostaiii"
 googleanalytics = "UA-24469699-1"
+enableRobotsTXT = true
 
 [params]
     title = "johnmcostaiii.com"
