@@ -6,10 +6,11 @@ disqusShortname = "johnmcostaiii"
 googleanalytics = "UA-24469699-1"
 enableRobotsTXT = true
 
-[headers]
-    for = "/*"
-    [headers.values]
-    Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
+[server]
+    [[server.headers]]
+        for = '/**'
+        [server.headers.values]
+            Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
 
 [params]
     title = "johnmcostaiii.com"
