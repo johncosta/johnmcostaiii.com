@@ -3,6 +3,7 @@ title: "Pragmatism for decision-making in Software Development"
 date: "2024-06-16"
 comments: true
 tags: ["software", "development", "pragmatism"]
+categories: ["software development"]
 ---
 
 ## Overview
