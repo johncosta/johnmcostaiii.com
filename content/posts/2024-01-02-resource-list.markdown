@@ -18,6 +18,11 @@ I'll add more as the year goes on.
 * [The Staff Engineer's Path](https://amzn.to/48iykNJ)
 * [Becoming an Agile Software Architect](https://amzn.to/3TK1fWs)
 * [The Manager's Path](https://amzn.to/48xGMby)
+* [Team Topologies: Organizing Business and Technology Teams](https://www.amazon.com/Team-Topologies-Organizing-Business-Technology/dp/1942788819)
+* [Introduction to Internal Family Systems](https://a.co/d/9OjjGWp)
+* [No Bad Parts](https://a.co/d/jbm4UB0)
+* [The Clean Coder: A Code of Conduct for Professional Programmers](https://a.co/d/7loVYmL)
+
 
 ## Blogs
 

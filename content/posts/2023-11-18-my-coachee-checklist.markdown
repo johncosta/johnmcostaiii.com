@@ -6,7 +6,7 @@ tags: ["coaching", "list", "career development", "5x15", "leadership", "2023"]
 ---
 
 # Overview
-After reading [One Bold Move a Day](/2023/11/12/one-bold-move-a-day-meaningful-actions.html) I decided to create a
+After reading [One Bold Move a Day](/posts/2023-11-12-one-bold-move-a-day-meaningful-actions/) I decided to create a
 checklist for my coaching interactions. This includes being coached as well as a template for those I plan to coach.
 This checklist is a work in progress and will be updated as I learn more about coaching and leadership.
 
