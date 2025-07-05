@@ -1,9 +1,5 @@
 ---
-#################################
-#################################
-## Super Linter GitHub Actions ##
-#################################
-#################################
+
 name: Lint Code Base
 
 permissions:
@@ -51,19 +47,11 @@ jobs:
           # Full git history is needed to get a proper
           # list of changed files within `super-linter`
           fetch-depth: 0
-
+      - uses: actions/setup-python@v3
+      - uses: pre-commit/action@v3.0.1
       ################################
       # Run Linter against code base #
       ################################
       - name: lint-code-base
-        uses: super-linter/super-linter@v6
-        env:
-          VALIDATE_ALL_CODEBASE: false
-          DEFAULT_BRANCH: main
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          # set yaml lint line length to 120
-          YAML_LINT_LINE_LENGTH: 120
-          VALIDATE_HTML: false
-          VALIDATE_GITHUB_ACTIONS: false
-          VALIDATE_NATURAL_LANGUAGE: false
-          VALIDATE_JSCPD: false
+        run: |
+          make lint

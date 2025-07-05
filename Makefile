@@ -6,3 +6,6 @@ build:
 
 clean:
 	rm -rf ./public
+
+lint:
+	pre-commit run --all-files

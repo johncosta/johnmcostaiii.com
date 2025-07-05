@@ -1,8 +1,7 @@
 ---
+name: autoupdate
 permissions:
   contents: read
-
-name: autoupdate
 on:
   push:
 jobs:
@@ -16,7 +15,7 @@ jobs:
       - uses: docker://chinthakagodawita/autoupdate-action:v1
         id: autoupdate
         env:
-          GITHUB_TOKEN: "${{ secrets.ACCESS_TOKEN }}"
+          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
           MERGE_CONFLICT_ACTION: "ignore"
 
       - run: echo 'Merge conflicts found!'
