@@ -47,7 +47,7 @@ jobs:
           # Full git history is needed to get a proper
           # list of changed files within `super-linter`
           fetch-depth: 0
-      - uses: actions/setup-python@v3
+      - uses: actions/setup-python@v5
       - uses: pre-commit/action@v3.0.1
       ################################
       # Run Linter against code base #
