@@ -39,6 +39,10 @@ and validation data to build up a model as well as learn about image augmentatio
 overspecialization. Additional concepts introduced include Transferred Learning, Multiclass Classification, and
 Dropout Regularization.
 
+## Chapter 4: Using Public Datasets with TensorFlow Datasets
+
+Using the TensorFlow Datasets library, chapter 4 introduces the reader to ETL which is a core pattern for training data.
+The chapter covers a practical example as well as how to use parallelization ETL to speed up the process.
 
 ## Taxonomy
 
