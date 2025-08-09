@@ -22,8 +22,8 @@ great segway from the machine learning and neural networks covered in the [previ
 
 ## Taxonomy
 
-__Large Language Models (LLMs)__: A type of AI model that is trained on large datasets to understand and generate human language.
-__Bag of Words (BoW)__: A simple representation of text that ignores grammar and word order but keeps track of word frequency.
-__word2vec__: A technique that uses neural networks to learn word embeddings, capturing semantic relationships between words.
-__Attention__: A mechanism that allows models to focus on specific parts of the input sequence, improving context understanding.
-__GPT (Generative Pre-trained Transformer)__: A type of LLM that is pre-trained on a large corpus of text and can generate coherent text based on a given prompt.
+* __Large Language Models (LLMs)__: A type of AI model that is trained on large datasets to understand and generate human language.
+* __Bag of Words (BoW)__: A simple representation of text that ignores grammar and word order but keeps track of word frequency.
+* __word2vec__: A technique that uses neural networks to learn word embeddings, capturing semantic relationships between words.
+* __Attention__: A mechanism that allows models to focus on specific parts of the input sequence, improving context understanding.
+* __GPT (Generative Pre-trained Transformer)__: A type of LLM that is pre-trained on a large corpus of text and can generate coherent text based on a given prompt.
