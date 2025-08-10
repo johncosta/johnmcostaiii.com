@@ -34,9 +34,9 @@ Make it sound like me. Use natural language, vivid but clear phrasing, and focus
 
 ## Results
 
-![img.png](../../static/img/mind-map/img.png)
+![img.png](https://johnmcostaiii.com/img/mind-map/img.png)
 
-![mind-map.png](../../static/img/mind-map/mind-map-results.png)
+![mind-map.png](https://johnmcostaiii.com/img/mind-map/mind-map-results.png)
 
 
 Curious what you think! I found this exercise to be incredibly insightful and a great way to reflect on my personal
