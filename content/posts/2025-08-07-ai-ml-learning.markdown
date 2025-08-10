@@ -27,6 +27,8 @@ pip install tensorflow-macos tensorflow-metal
 
 At the end of this chapter you’ll build and train your first model, a simple linear regression model that predicts the output of a linear equation.
 
+**__Note__**: Using the coding samples located in GitHub will make following along really easy. https://github.com/lmoroney/tfbook
+
 ## Chapter 2: Introduction to Computer Vision
 
 Using the Fashion MNIST dataset, chapter 2 introduces the reader to Neural Network design. Using a real, but simiple
@@ -44,8 +46,22 @@ Dropout Regularization.
 Using the TensorFlow Datasets library, chapter 4 introduces the reader to ETL which is a core pattern for training data.
 The chapter covers a practical example as well as how to use parallelization ETL to speed up the process.
 
+## Chapter 5: Natural Language Processing
+
+Chapter 5 introduces the reader to tokenization, taking text and breaking it down into smaller units (tokens) for
+processing. It covers basics like Turning sentences into tokens, padding sequences, as well as more advanced techniques
+like removing stop words, and text cleaning.
+
+The examples in this chapter use the IMDB, emotional sentiment, and scarcasim classification datasets as examples for
+building datasets from html like data, csv files, and json.
+
 ## Taxonomy
 
 * __Overfitting__: When the model becomes overspecialized to the training data.
 * __Convolution__: Mathematical filter that works on the pixels of an image.
 * __Transfer Learning__: Taking layers from another architecture.
+* __Natural Language Processing (NLP)__: A field of AI that focuses on the interaction between computers and humans through natural language.
+* __Tokenization__: The process of breaking down text into smaller units (tokens) for processing.
+* __Padding__: Adding zeros to the beginning or end of a sequence to make it a fixed length.
+* __Out of Vocabulary (OOV)__: Words that are not present in the training vocabulary.
+* __Stop Words__: Common words that are often removed from text data to reduce noise and improve model performance.
