@@ -32,16 +32,48 @@ Token embeddings are numerical representations of tokens that capture their sema
 represent sentences, paragraphs, or even entire documents. Further, embeddings can be used in Recommendation Systems. The
 chapter covers a song recommendation system that uses embeddings to recommend songs based on a song input by the user.
 
+## Chapter 3: Looking Inside Large Language Models
+
+**__Note:__** This chapter contains a number of useful diagrams that I've described in my own representation. However,
+the diagrams are not reproduced in their entirety. Please refer to the book for the complete diagrams and explanations.
+
+Chapter 3 takes a deeper dive into the architecture of LLMs. We start out with a view into the Inputs and Outputs of
+Trained Transformer LLMs. This might be an overly simplified view, but it helps to understand the basic flow of data
+through an LLM.
+
+![transformer.highlevel.drawio.png](https://johnmcostaiii.com/img/transformers/transformer.highlevel.drawio.png)
+
+The transformer generates a single output token at a time, using the previous tokens as context. This is known as an
+autoregressive model.
+
+Diving a little deeper, we learn about the Transformer architecture. It's composed of a Tokenizer, a stack of Transformer
+blocks, and an LM Head.
+
+![transformer.components.drawio.png](https://johnmcostaiii.com/img/transformers/transformer.components.drawio.png)
+
+Going further, the tokenizer breaks down the input text into tokens and becomes a token vocabulary. The set of transformer
+blocks have token embeddings based on the token vocabulary. The LM head is a neural network layer that contains token
+probabilities for each token in the vocabulary.
+
+![transformer.forwardpass.drawio.png](https://johnmcostaiii.com/img/transformers/transformer.forwardpass.drawio.png)
+
 ## Taxonomy
 
-* __Large Language Models (LLMs)__: A type of AI model that is trained on large datasets to understand and generate human language.
-* __Bag of Words (BoW)__: A simple representation of text that ignores grammar and word order but keeps track of word frequency.
-* __word2vec__: A technique that uses neural networks to learn word embeddings, capturing semantic relationships between words.
 * __Attention__: A mechanism that allows models to focus on specific parts of the input sequence, improving context understanding.
-* __GPT (Generative Pre-trained Transformer)__: A type of LLM that is pre-trained on a large corpus of text and can generate coherent text based on a given prompt.
-* __Tokenization__: The process of breaking down text into smaller units (tokens) for processing by LLMs.
-* __Word Tokens__: A tokenization scheme where each token represents a whole word.
-* __Subword Tokens__: A tokenization scheme where tokens can represent parts of words, allowing for better handling of rare or unknown words.
-* __Character Tokens__: A tokenization scheme where each token represents a single character, useful for languages with complex morphology.
+* __Autoregressive Models__: Models that generate text by predicting the next token in a sequence based on the previous tokens.
+* __Bag of Words (BoW)__: A simple representation of text that ignores grammar and word order but keeps track of word frequency.
 * __Byte Tokens__: A tokenization scheme that represents text as a sequence of bytes, allowing for a more compact representation.
+* __Character Tokens__: A tokenization scheme where each token represents a single character, useful for languages with complex morphology.
 * __Embeddings__: Numerical representations of words or tokens that capture their semantic meaning and relationships.
+* __GPT (Generative Pre-trained Transformer)__: A type of LLM that is pre-trained on a large corpus of text and can generate coherent text based on a given prompt.
+* __Large Language Models (LLMs)__: A type of AI model that is trained on large datasets to understand and generate human language.
+* __LM Head__: The final layer of an LLM that generates the output tokens based on the processed input.
+* __Subword Tokens__: A tokenization scheme where tokens can represent parts of words, allowing for better handling of rare or unknown words.
+* __Tokenization__: The process of breaking down text into smaller units (tokens) for processing by LLMs.
+* __Token Embedding__: The process of converting tokens into numerical vectors that capture their semantic meaning.
+* __Token Probabilities__: The likelihood of each token in the vocabulary being the next token in a sequence, used for text generation.
+* __Transformer__: A neural network architecture that uses self-attention mechanisms to process sequences of data, widely used in LLMs.
+* __Transformer Blocks__: The building blocks of the Transformer architecture, consisting of layers of attention and feed-forward neural networks.
+* __Trained Transformer LLMs__: LLMs that have been trained on large datasets using the Transformer architecture, enabling them to understand and generate human language effectively.
+* __Word Tokens__: A tokenization scheme where each token represents a whole word.
+* __word2vec__: A technique that uses neural networks to learn word embeddings, capturing semantic relationships between words.
