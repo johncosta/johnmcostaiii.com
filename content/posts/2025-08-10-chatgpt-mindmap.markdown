@@ -10,7 +10,7 @@ categories: ["artificial intelligence", "personal development"]
 
 I recently came across a couple of posts on LinkedIn[^1][^2] that got me thinking about how I can use GPT to better understand my cognitive, emotional, and relational architecture. The post discusses how GPT can be used to create a mind map of your life, which can help you identify patterns and connections in your thoughts and feelings.
 
-I decided to give it a try and see what I could come up with. I used GPT to generate a mind map of my life, focusing on my cognitive, emotional, and relational architecture. The results were fascinating and provided me with a new perspective on myself.
+I decided to give it a try and see what I could come up with. The results were fascinating and provided me with a new perspective on myself.
 
 The prompt I used was:
 
