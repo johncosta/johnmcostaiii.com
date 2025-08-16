@@ -80,6 +80,19 @@ generating text.
 
 ![transformer-Page-3.simple-self-attention.drawio.png](https://johnmcostaiii.com/img/transformers/transformer-Page-3.simple-self-attention.drawio.png)
 
+Taking a look into attention more closely, we see that we are getting to the core of how LLMs work.
+
+**__Note:__** The book mentions projection matrices which are shown in the diagram below. However, it doesn't
+explain them in detail. If you're interested in understanding projection matrices, a good resource that I found helpful
+is [this article](https://sebastianraschka.com/blog/2023/self-attention-from-scratch.html#defining-the-weight-matrices).
+The content appears to be a summarization of the original paper on self-attention, [Attention Is All You Need](https://arxiv.org/pdf/1706.03762).
+
+![transformer-Page-3.relevance-scoring.drawio.png](https://johnmcostaiii.com/img/transformers/transformer-Page-3.relevance-scoring.drawio.png)
+
+Using the queries and keys, the model calculates relevance scores for each token in the input sequence. The scores are then
+multiplied by the values to produce the output vectors.
+
+
 
 ## Taxonomy
 
@@ -110,4 +123,6 @@ generating text.
 
 References:
 
-* https://web.stanford.edu/~jurafsky/slp3/
+* [Speech and Language Processing](https://web.stanford.edu/~jurafsky/slp3/)
+* [Attention Is All You Need](https://arxiv.org/pdf/1706.03762)
+* [Generating Long Sequences with Sparse Transformers](https://arxiv.org/pdf/1904.10509)
