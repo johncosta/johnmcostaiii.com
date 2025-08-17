@@ -55,13 +55,41 @@ like removing stop words, and text cleaning.
 The examples in this chapter use the IMDB, emotional sentiment, and scarcasim classification datasets as examples for
 building datasets from html like data, csv files, and json.
 
+## Chapter 6: Making Sentiment Programmable Using Embeddings
+
+Chapter 6 uses a Sarcasm dataset to introduce the reader to word embeddings. Words are given a numerical representation
+of positive numbers that represent Sarcasm and negative numbers that represent realistic statements. Sentences could then
+be represented as a series of these numbers and evaluated for a Sarcasm score.
+
+The example in this chapter begins to analyze accuracy and loss against the training and validation datasets. This can
+help identify overfitting, which is when the model becomes overspecialized to the training data.
+
+![accuracy-vs-val_accuracy.png](https://johnmcostaiii.com/img/ai-ml/accuracy-vs-val_accuracy.png)
+![loss-vs-val_loss.png](https://johnmcostaiii.com/img/ai-ml/loss-vs-val_loss.png)
+
+The example goes on to cover various techniques to improve the model. These include:
+
+* Adjusting the learning rate
+* Adjusting the vocabulary size
+* Adjusting the embedding dimension
+
+When these techniques are applied, finer tuning of the model can be achieved by:
+
+* Using dropout
+* Using regularization
+
 ## Taxonomy
 
-* __Overfitting__: When the model becomes overspecialized to the training data.
 * __Convolution__: Mathematical filter that works on the pixels of an image.
-* __Transfer Learning__: Taking layers from another architecture.
+* __Dropout__: A regularization technique that randomly sets a fraction of input units to 0 at each update during training time, which helps prevent overfitting.
+* __Embedding Dimension__: The size of the vector representation of each word in the vocabulary.
+* __Learning Rate__: A hyperparameter that controls how much to change the model in response to the estimated error each time the model weights are updated.
 * __Natural Language Processing (NLP)__: A field of AI that focuses on the interaction between computers and humans through natural language.
-* __Tokenization__: The process of breaking down text into smaller units (tokens) for processing.
-* __Padding__: Adding zeros to the beginning or end of a sequence to make it a fixed length.
 * __Out of Vocabulary (OOV)__: Words that are not present in the training vocabulary.
+* __Overfitting__: When the model becomes overspecialized to the training data.
+* __Padding__: Adding zeros to the beginning or end of a sequence to make it a fixed length.
+* __Regularization__: Techniques used to prevent overfitting by adding a penalty to the loss function based on the complexity of the model.
 * __Stop Words__: Common words that are often removed from text data to reduce noise and improve model performance.
+* __Tokenization__: The process of breaking down text into smaller units (tokens) for processing.
+* __Transfer Learning__: Taking layers from another architecture.
+* __Vocabulary Size__: The number of unique words in the training dataset.
