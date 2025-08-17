@@ -78,12 +78,36 @@ When these techniques are applied, finer tuning of the model can be achieved by:
 * Using dropout
 * Using regularization
 
+## Chapter 7: Recurrent Neural Networks for Natural Language Processing
+
+Chapter 7 introduces Recurrent Neural Networks (RNNs) and how they can be used for Natural Language Processing tasks.
+
+They provide a diagram of a recurrent neuron which shows how a recurrent neuron is architected.
+
+![ai-ml.recurrent_neuron.drawio.png](https://johnmcostaiii.com/img/ai-ml/ai-ml.recurrent_neuron.drawio.png)
+
+Long Short-Term Memory (LSTM) is a type of RNN that is capable of learning long-term dependencies.
+
+Bidirectional LSTMs are a type of LSTM that can process data in both directions, which can be useful for tasks like
+sentiment analysis where context from both the past and future can be important.
+
+The exercise in this chapter reuses the exercise from chapter 6 and introduces stacked LSTMs.
+
+Overtraining occurs in the example, so optimization techniques are applied to improve the model. These include:
+
+* Adjust the learning rate
+* Using dropout in the LSTM layers
+
+A second example in this chapter uses pretrained embeddings, the GloVe set. In this second example, after the model is downloaded, an
+exercise to determine how many of the words in the corpus are in the GloVe vocabulary is performed.
+
 ## Taxonomy
 
 * __Convolution__: Mathematical filter that works on the pixels of an image.
 * __Dropout__: A regularization technique that randomly sets a fraction of input units to 0 at each update during training time, which helps prevent overfitting.
 * __Embedding Dimension__: The size of the vector representation of each word in the vocabulary.
 * __Learning Rate__: A hyperparameter that controls how much to change the model in response to the estimated error each time the model weights are updated.
+* __Long Short-Term Memory (LSTM)__: A type of recurrent neural network (RNN) architecture that is capable of learning long-term dependencies.
 * __Natural Language Processing (NLP)__: A field of AI that focuses on the interaction between computers and humans through natural language.
 * __Out of Vocabulary (OOV)__: Words that are not present in the training vocabulary.
 * __Overfitting__: When the model becomes overspecialized to the training data.
@@ -93,3 +117,8 @@ When these techniques are applied, finer tuning of the model can be achieved by:
 * __Tokenization__: The process of breaking down text into smaller units (tokens) for processing.
 * __Transfer Learning__: Taking layers from another architecture.
 * __Vocabulary Size__: The number of unique words in the training dataset.
+
+## References:
+
+* [Understanding LSTM Networks](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
+* [GloVe: Global Vectors for Word Representation](https://nlp.stanford.edu/projects/glove/)
