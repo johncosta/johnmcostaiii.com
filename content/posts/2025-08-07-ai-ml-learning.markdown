@@ -101,6 +101,17 @@ Overtraining occurs in the example, so optimization techniques are applied to im
 A second example in this chapter uses pretrained embeddings, the GloVe set. In this second example, after the model is downloaded, an
 exercise to determine how many of the words in the corpus are in the GloVe vocabulary is performed.
 
+## Using TensorFlow to Create Text
+
+This chapter starts out with an example of tokenizing text and creating a word index. Then a model is built so that it
+can be trained.
+
+With a trained model it can be used to predict the next word in a seqence. We can then use seed text to generate a
+token and test the model.  We can then repeat this process to generate mode text with alternate seed text.
+
+Using the same process we can use a differet, larger dataset to generate more complex text. The example adjusts the
+model slightly by adding an additional LSTM layer and increasing the number of epochs.
+
 ## Taxonomy
 
 * __Convolution__: Mathematical filter that works on the pixels of an image.
