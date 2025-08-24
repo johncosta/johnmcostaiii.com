@@ -188,7 +188,19 @@ Structure:
 - surplus and deficit national economies
 - balance of payments
 
+## Chapter 5: Supply and Demand
 
+low demand: no one wants it, price goes down
+high demand: everyone wants it, price goes up
+
+Factors that influence demand:
+
+- supply chain (issues)
+  - example: semiconductor shortage
+  - example: used car prices during the pandemic
+  - example: egg shortage during the pandemic
+
+presumed infinity of resources
 
 
 
