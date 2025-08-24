@@ -159,6 +159,52 @@ The T5 model is similar to the original Transformer architecture, using an encod
 
 OpenAI's GPT model training process is published here: https://openai.com/index/chatgpt/
 
+## Chapter 5: Text Clustering and Topic Modeling
+
+Text clustering is the process of grouping similar pieces of text together based on their content, yeilding clusters of
+symantically similar text.
+
+Text clustering can be used for topic modeling, which is the process of identifying the main topics in a collection of text.
+
+The book example uses ArXiv papers as the text corpus.
+
+Common Pipeline for Text Clustering:
+
+1) convert input documents -> embeddings w/ embedding model
+2) Reduce dimensionality w/ dimensionality reduction model
+3) find groups of documents w/ cluster model
+
+### Dimensionality Reduction
+
+There are well known method for dimensionality reduction including:
+
+* Principal Component Analysis (PCA)
+* Uniform Manifold Approximation and Projection (UMAP)
+
+### Clustering Algorithms
+
+An example of clustering algorithms include:
+
+* Hierarchical Density-Based Spatial Clustering of Applications with Noise (HDBSCAN)
+
+Visualization of clusters can be done using tools like Matplotlib.
+
+### BERTopic: Modular Topic Modeling Framework
+
+1) Follow the same procedure in text clustering to generate clusters
+2) Model distribution over words, bag of words - use frequency of words in each cluster to identify topics
+3) Use class-based term frequency inverse document frequency (c-TF-IDF) to identify words that are unique to each cluster
+
+A full pipeline for topic modeling using BERTopic:
+
+| clustering                               | topic representation            | reranking                 |
+|------------------------------------------|---------------------------------|---------------------------|
+| sbert -> umap -> hdbscan                 | count vectorizaton -> c-TF-IDF  | reprentation model        |
+| embed docs -> reduce dim -> cluster docs | tokenize words -> weight words  | fine tune representation  |
+
+BERTopics can be used like Legos to build custom pipelines.
+
+
 ## Taxonomy
 
 * __Accuracy__: A metric used to evaluate the performance of classification models, measuring the proportion of correct predictions.
@@ -176,6 +222,7 @@ OpenAI's GPT model training process is published here: https://openai.com/index/
 * __GPT (Generative Pre-trained Transformer)__: A type of LLM that is pre-trained on a large corpus of text and can generate coherent text based on a given prompt.
 * __Greedy Decoding__: A text generation strategy where the model selects the token with the highest probability at each step.
 * __Grouped Query Attention (GQA)__: An attention mechanism that uses a single set of keys and values for multiple queries, improving efficiency.
+* __Inverse Document Frequency (IDF)__: is a measure of how important a word is to a document in a collection of documents.
 * __Large Language Models (LLMs)__: A type of AI model that is trained on large datasets to understand and generate human language.
 * __LM Head__: The final layer of an LLM that generates the output tokens based on the processed input.
 * __Multi-Head Attention__: An attention mechanism that allows the model to focus on different parts of the input sequence simultaneously.
@@ -220,4 +267,4 @@ References:
 * [HuggingFace Datasets](https://huggingface.co/datasets)
 * [HuggingFace Cornell Rotten Tomatoes](https://huggingface.co/datasets/cornell-movie-review-data/rotten_tomatoes)
 * [Scaling Instruction-Finetuned Language Models](https://arxiv.org/abs/2210.11416)
-*
+* [ArXiv](https://arxiv.org/)
