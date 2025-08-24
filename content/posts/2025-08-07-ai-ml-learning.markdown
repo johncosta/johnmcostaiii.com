@@ -101,7 +101,7 @@ Overtraining occurs in the example, so optimization techniques are applied to im
 A second example in this chapter uses pretrained embeddings, the GloVe set. In this second example, after the model is downloaded, an
 exercise to determine how many of the words in the corpus are in the GloVe vocabulary is performed.
 
-## Using TensorFlow to Create Text
+## Chapter 8: Using TensorFlow to Create Text
 
 This chapter starts out with an example of tokenizing text and creating a word index. Then a model is built so that it
 can be trained.
@@ -112,21 +112,45 @@ token and test the model.  We can then repeat this process to generate mode text
 Using the same process we can use a differet, larger dataset to generate more complex text. The example adjusts the
 model slightly by adding an additional LSTM layer and increasing the number of epochs.
 
+## Chapter 9: Understanding Sequence and Time Series Data
+
+Common attributes of time series data include:
+
+* Trend
+* Seasonality
+* Autocorrelation
+* Noise
+
+Techniques for predicting time series data include:
+
+* Naive Prediction to create a baseline
+
+Measuring Prediction accuracy:
+
+* Mean Absolute Error (MAE)
+* Mean Squared Error (MSE)
+
+Less Naive: Using Moving Averages
+
 ## Taxonomy
 
+* __Autocorrelation__: The correlation of a signal with a delayed copy of itself as a function of delay.
 * __Convolution__: Mathematical filter that works on the pixels of an image.
 * __Dropout__: A regularization technique that randomly sets a fraction of input units to 0 at each update during training time, which helps prevent overfitting.
 * __Embedding Dimension__: The size of the vector representation of each word in the vocabulary.
 * __Learning Rate__: A hyperparameter that controls how much to change the model in response to the estimated error each time the model weights are updated.
 * __Long Short-Term Memory (LSTM)__: A type of recurrent neural network (RNN) architecture that is capable of learning long-term dependencies.
 * __Natural Language Processing (NLP)__: A field of AI that focuses on the interaction between computers and humans through natural language.
+* __Noise__: Random variation in data that does not contain useful information.
 * __Out of Vocabulary (OOV)__: Words that are not present in the training vocabulary.
 * __Overfitting__: When the model becomes overspecialized to the training data.
 * __Padding__: Adding zeros to the beginning or end of a sequence to make it a fixed length.
 * __Regularization__: Techniques used to prevent overfitting by adding a penalty to the loss function based on the complexity of the model.
+* __Seasonality__: A pattern that repeats at regular intervals in the data.
 * __Stop Words__: Common words that are often removed from text data to reduce noise and improve model performance.
 * __Tokenization__: The process of breaking down text into smaller units (tokens) for processing.
 * __Transfer Learning__: Taking layers from another architecture.
+* __Trend__: A long-term increase or decrease in the data.
 * __Vocabulary Size__: The number of unique words in the training dataset.
 
 ## References:
