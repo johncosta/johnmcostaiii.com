@@ -202,9 +202,51 @@ Factors that influence demand:
 
 presumed infinity of resources
 
+## Chapter 6: GDP and the Economy
 
+Measuring GDP:
 
+- GDP = C + I + G + (X - M)
+  - C = Consumer Spending
+  - I = Investment Spending
+  - G = Government Spending
+  - X = Exports
+  - M = Imports
 
+Consumption:
+
+What people buy fueled by:
+
+- income
+- borrowing (credit cards)
+- Savings
+
+Investment: spending $$ for economic benefit over time
+Government Purchases: goods and services that government buys
+Net Exports: exports - imports
+
+Nominal vs Real GDP: includes inflation vs adjusted for inflation
+
+Increased borrowing can lead to increased nominal GDP.
+
+Limitations of GDP:
+- does not account for health and happiness
+- does not account for environmental degradation
+
+Real GDP per capita: total gdp / population
+
+Productivity: ratio of output to input
+
+Alternatives to GDP:
+
+- degrowth
+- ecological econmics
+- postgrowth
+
+Future of GDP:
+- Big Growth Policies probably won't work forever
+- global challenges: climate change, income inequality, resource depletion
+rethinking of success; GDP may not be a holistic measure of well-being or social progress
 
 ## Taxonomy
 
