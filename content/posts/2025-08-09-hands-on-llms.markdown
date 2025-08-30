@@ -204,6 +204,104 @@ A full pipeline for topic modeling using BERTopic:
 
 BERTopics can be used like Legos to build custom pipelines.
 
+## Chapter 6: Prompt Engineering
+
+### Basics of using text generation model
+
+* Select a model considering:
+  * opensource vs proprietary
+  * output control
+
+1) Choose opensource or proprietary model
+
+**__suggestion__**: start with a small foundational model
+
+2) Load the model
+
+3) Control the output
+
+* set do_Sample=True to use temperature and top_p
+
+4) Tune Temperature and top_p for the use case
+
+### Intro to prompt engineering
+
+Ingredients of a good prompt:
+
+* When no instructions are given, the model will try to predict the next word based on the input text.
+* Two components of basic instructions:
+  1) Task description
+  2) Input text (data)
+* Extending the prompt with output indicator allows for specific output
+
+Use cases for instruction based prompts:
+
+* Supervised classification
+* Search
+* Summarization
+* Code generation
+* Named entity recognition
+
+Techniques for improving prompts:
+
+* Specificity
+* Hallucination mitigation
+* Order
+
+Complex prompt components:
+
+* Persona
+* Instruction
+* Context
+* Format
+* Audience
+* Tone
+* Data
+
+In-context learning:
+
+* Zero-shot learning
+* One-shot learning
+* Few-shot learning
+
+Chain prompting:
+
+* Break the task into smaller sub-tasks and use the output of one prompt as the input to the next prompt.
+* Useful for:
+    * Response validation
+    * Parallel prompts
+    * Writing stories
+
+### Reasoning with Generative Models
+
+Chain of thought:
+* Prompt the model to think step-by-step
+
+Self-consistency:
+* using the same prompt multiple times to generate multiple responses
+* works best with temperature and top_p sampling
+
+Tree of thought:
+* useful when needing to explore multiple paths to a solution
+* ask the model to mimic multiple agents working together to solve a problem
+* question each other until they reach a consensus
+
+### Output Verification
+
+* Useful for:
+    * Structured output
+    * Valid output
+    * ethics
+    * accuracy
+
+Techniques:
+* Provide examples of valid output
+
+Grammar: constrained sampling
+* use packages for:
+    * Guidance
+    * Guardrails
+    * LMQL
 
 ## Taxonomy
 
@@ -234,9 +332,11 @@ BERTopics can be used like Legos to build custom pipelines.
 * __Sparse Attention__: An efficient attention mechanism that uses fewer input tokens as context for self-attention, reducing computational complexity.
 * __Subword Tokens__: A tokenization scheme where tokens can represent parts of words, allowing for better handling of rare or unknown words.
 * __T5 model__: Text-To-Text Transfer Transformer, a model that converts all NLP tasks into a text-to-text format.
+* __Temperature__: A parameter that controls the randomness of the model's output, with higher values leading to more diverse text.
 * __Tokenization__: The process of breaking down text into smaller units (tokens) for processing by LLMs.
 * __Token Embedding__: The process of converting tokens into numerical vectors that capture their semantic meaning.
 * __Token Probabilities__: The likelihood of each token in the vocabulary being the next token in a sequence, used for text generation.
+* __Top-p Sampling (Nucleus Sampling)__: A text generation strategy that selects tokens from the smallest set whose cumulative probability exceeds a threshold p, allowing for more diverse outputs.
 * __Transformer__: A neural network architecture that uses self-attention mechanisms to process sequences of data, widely used in LLMs.
 * __Transformer Blocks__: The building blocks of the Transformer architecture, consisting of layers of attention and feed-forward neural networks.
 * __Trained Transformer LLMs__: LLMs that have been trained on large datasets using the Transformer architecture, enabling them to understand and generate human language effectively.
