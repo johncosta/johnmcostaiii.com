@@ -132,6 +132,15 @@ Measuring Prediction accuracy:
 
 Less Naive: Using Moving Averages
 
+## Chapter 10: Creating ML Models to Predict Seqeuences
+
+Windowed datasets can be used to emulate a time series dataset. The example in this chapter uses a window size of 5
+to predict the next value in the sequence.
+
+It goes through the process of creating a windowed version of time series data, then building and training a model.
+
+Tuning the model can be done through the use of Keras Tuner.
+
 ## Taxonomy
 
 * __Autocorrelation__: The correlation of a signal with a delayed copy of itself as a function of delay.
