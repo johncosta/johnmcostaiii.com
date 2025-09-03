@@ -248,6 +248,45 @@ Future of GDP:
 - global challenges: climate change, income inequality, resource depletion
 rethinking of success; GDP may not be a holistic measure of well-being or social progress
 
+## Chapter 7: Commodities
+
+What are commodities?
+
+Commodities are raw materials used to create the building blocks of the economy.
+
+Globalization + Free Trade & Comparative Advantage - Shipping issues & Floods & Fires
+
+Oil: crude price is indicator of economy's health
+Gas: direct impact to consumers as oil prices rise and fall
+
+However: relationship between oil prices and gas prices is not symmetric
+
+Gas Prices: Rocket and Feather Effect
+- The market power of gas stations
+- Fear of price variability
+
+Metals: Steel, Aluminum, Copper
+Supply issues in one can affect the others
+
+Renewables:
+- We still need oil to build out EVs, solar panels, and nuclear reactors
+- renewable isn't just about tech
+- problems to solve:
+  * ease trade barriers
+  * sharing tech in energy storage
+  * commit to collective action
+
+AI and Commodities:
+- AI can help manage crops
+- predict and locate resources
+
+AI's computational power is linked to raw material
+
+Symbiotic Relationship
+
+
+
+
 ## Taxonomy
 
 * Fiat Money: currency that is not backed by a physical commodity, such as gold or silver, but rather by the government that issues it.
@@ -263,6 +302,7 @@ rethinking of success; GDP may not be a holistic measure of well-being or social
 * Affective Forcasting: a cognitive bias where people predict their future emotional states based on current feelings, which can lead to inaccurate predictions about how they will feel in the future.
 * Social Identity Theory: a psychological theory that explains how individuals derive their self-concept and identity from their group memberships, influencing their behavior and decision-making.
 * Consumer Emotional Engagement: the emotional connection and involvement that consumers have with a brand or product, which can influence their purchasing decisions and loyalty.
+* Comparative Advantage: the ability of a country to produce a good or service at a lower opportunity cost than another country.
 
 ## References:
 
