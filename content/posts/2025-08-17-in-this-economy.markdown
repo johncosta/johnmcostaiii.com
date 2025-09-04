@@ -284,6 +284,87 @@ AI's computational power is linked to raw material
 
 Symbiotic Relationship
 
+## Chapter 8: Inflation
+
+What is Inflation?
+- Inflation is a decline in purchasing power over time.
+- Inflation Rate is a rate of chance in prices over time.
+
+Measuring Inflation:
+- Consumer Price Index (CPI): measures the average change in prices paid by consumers for a basket of goods and services.
+- Personal Consumption Expenditures (PCE): measures the average change in prices paid by consumers for goods and services, but includes a broader range of items than CPI.
+- Wholesale Price Index (WPI): measures the average change in prices received by wholesalers for goods and services.
+- Producer Price Index (PPI): measures the average change in prices received by producers for goods and services.
+- GDP Deflator: measures the average change in prices of all goods and services produced in an economy.
+
+CPI is a way to track how much more/less things cost for the average person.
+- Bureau of Labor Statistics (BLS) collects data on prices of a basket of goods and services.
+- BLS calculates the CPI by comparing the current cost of the basket to the cost in a base year.
+- CPI is reported as a percentage change from the previous month or year.
+
+PCE is the Federal Reserve's preferred measure of inflation.
+- PCE includes a broader range of items than CPI, such as healthcare and financial services.
+
+CPI vs PCE: They measure things differently and can give different inflation rates.
+
+Direction and Magnitude each are important to understand inflation.
+
+PPI focuses on the prices received by producers, which can be an early indicator of inflationary pressures in the economy.
+
+The concept of inflation is intertwined with the idea of vibes. The Federal Reserve manages vibes through monetary policy.
+
+What Causes Inflation?
+- supply and demand
+- rising prices
+- fiscal/monetary support
+- international trade fissures
+
+Amplifiers of Inflation:
+- Price hikes
+- labor market
+- globalization
+- energy markets
+
+Inflation Cycle:
+1) stability
+2) impulse
+3) propagation+amplification
+4) conflict
+
+Price Hikes:
+- Price hikes are just companies being companies.
+
+Labor Market:
+- People are the economy
+- People should be paid for what they do
+- People demand higher wages
+- Companies raise prices to cover higher wages
+
+Globalization:
+- reshoring & friendshoring
+- Enables competitive advantage
+- Reversing globalization can lead to control over supply chains
+
+Energy Markets:
+- energy is the common denominator of economic activity
+- high energy prices lead to higher costs
+
+Inflation Narrative:
+Inflation -> Worry about Inflation -> Forcast lower sales -> Raise prices -> Consumers feel worse
+
+Deflation: decrease in the general price level of goods and services, leading to an increase in purchasing power.
+- discourages spending and investment
+- debt becomes more expensive in real terms
+
+Hyperinflation: an extremely high and typically accelerating rate of inflation, often exceeding 50% per month.
+- hourly price increases
+- printing lots of money => leads to hyperinflation
+- hyperinflation => loss of confidence in currency
+
+
+
+
+
 
 
 
@@ -303,6 +384,11 @@ Symbiotic Relationship
 * Social Identity Theory: a psychological theory that explains how individuals derive their self-concept and identity from their group memberships, influencing their behavior and decision-making.
 * Consumer Emotional Engagement: the emotional connection and involvement that consumers have with a brand or product, which can influence their purchasing decisions and loyalty.
 * Comparative Advantage: the ability of a country to produce a good or service at a lower opportunity cost than another country.
+* Deflation: a decrease in the general price level of goods and services, leading to an increase in purchasing power.
+* Hyperinflation: an extremely high and typically accelerating rate of inflation, often exceeding 50% per month.
+* Stagflation: a situation in which the economy experiences stagnant growth, high unemployment, and high inflation simultaneously.
+* Reshoring: the process of bringing manufacturing and production activities back to a company's original country from overseas.
+* Friendshoring: the practice of relocating business operations to a country with similar political and economic values, often to reduce risks associated with geopolitical tensions.
 
 ## References:
 
