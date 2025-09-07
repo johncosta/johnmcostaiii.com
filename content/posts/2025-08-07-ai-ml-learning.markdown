@@ -141,6 +141,20 @@ It goes through the process of creating a windowed version of time series data, 
 
 Tuning the model can be done through the use of Keras Tuner.
 
+## Chapter 11: Using Convolutional and Recurrent Methods for Sequence Models
+
+This chapter continues the work from chapter 10 and introduces the use of Convolutional Neural Networks (CNNs) for
+sequence modeling.
+
+It goes over the parameters of the Conv1D layer and how they can be used in the model.
+
+It then goes on to use NASA weather data and using RNNs for seqence modeling and some tuning approaches.
+
+This includes:
+* Using Other recurrent methods, like gated recurrent units (GRU) and long short-term memory layers (LSTM)
+* Using Dropout
+* Using bidirectional RNNs
+
 ## Taxonomy
 
 * __Autocorrelation__: The correlation of a signal with a delayed copy of itself as a function of delay.
