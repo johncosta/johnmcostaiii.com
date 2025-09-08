@@ -303,6 +303,41 @@ Grammar: constrained sampling
     * Guardrails
     * LMQL
 
+## Chapter 7: Advanced Text Generation Techniques and Tools
+
+LangChain is a framework for using LLMs which has modular components. Phi-3 is an implementation of LangChain.
+
+Quantization reduces the number of bits used to represent parameters of an LLM while retaining most of its information.  It  reduces precision
+of value without removing vital information.
+
+A basic form of LongChain is a single chain.
+
+Example: PromptTemplate -> LLM -> Output
+
+More complex chains can have multiple inputs and outputs.
+
+Example: Input -> PromptTemplate1 -> LLM1 -> Output1 -> PromptTemplate2 -> LLM2 -> Output2
+
+The book uses a template chain to desmonstrate how to write a story using multiple prompts.
+
+Example: Title -> Character -> Story
+
+Limitation: LLMs don't have memory of previous interactions.
+
+To address this limitation, we can use a memory component to summarize previous interactions and then
+include the summary in the prompt for the next interaction.
+
+### Agents
+
+Agents are systems that use an LLM to determine which actions to take based on the input and the current state of the
+system.
+
+Agests use step by step reasoning:
+
+* thought
+* action
+* observation
+
 ## Taxonomy
 
 * __Accuracy__: A metric used to evaluate the performance of classification models, measuring the proportion of correct predictions.
