@@ -284,8 +284,36 @@ AI's computational power is linked to raw material
 
 Symbiotic Relationship
 
+## Chapter 8: Inflation
 
+What is Inflation?
 
+- Inflation is the decline in purchasing power of a currency over time.
+- Inflation decline != price decline
+
+Other types of "flation":
+- deflation: decline in prices
+- hyperinflation: extremely high and typically accelerating inflation
+- stagflation: high inflation combined with stagnant economic growth and high unemployment
+
+Measuring Inflation:
+- Consumer Price Index (CPI): measures the average change in prices paid by consumers for a basket of goods and services over time.
+- Personal Consumption Expenditures (PCE): measures the average change in prices paid by consumers for goods and services, but includes a broader range of items than CPI.
+- Whole Sale Price Index (WPI): measures the average change in prices received by producers for goods and services at the wholesale level.
+- Producer Price Index (PPI): measures the average change in prices received by producers for goods and services at the producer level.
+- GDP Deflator: measures the average change in prices of all goods and services included in GDP.
+
+Causes of Inflation:
+- Supply and Demand: when demand for goods and services exceeds supply, prices tend to rise.
+- Broken Supply Chains: disruptions in supply chains can lead to shortages of goods and services, which can drive up prices.
+- Monetary Policy: when central banks increase the money supply, it can lead to inflation
+
+Stages of Inflation: Stability->Implulse->Propagation/Amplification->Conflict
+Wage Price Spiral: Higher Wage Demands->Firms increase Prices->Higher Inflation->Increase Inflation Expectations->Higher Wage Demands
+Inflation Narrative Path: Inflation -> Worried about Inflation -> Forecast Lower Sales -> Raise Prices -> Consumers feel worse
+
+Deflation: Harmful as inflation, can cause economic slowdown.
+Hyperinflation: extremely high inflation, can lead to economic collapse and social unrest due to loss of confidence in currency.
 
 ## Taxonomy
 
