@@ -155,6 +155,12 @@ This includes:
 * Using Dropout
 * Using bidirectional RNNs
 
+## Chapter 12: An introduction to tensorflow lite
+
+TensorFlow lite is a mobile version of TensorFlow.
+
+The book walks through the process of converting a model to TensorFlow lite and then using it.
+
 ## Taxonomy
 
 * __Autocorrelation__: The correlation of a signal with a delayed copy of itself as a function of delay.
