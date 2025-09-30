@@ -161,6 +161,20 @@ TensorFlow lite is a mobile version of TensorFlow.
 
 The book walks through the process of converting a model to TensorFlow lite and then using it.
 
+## Chapter 13: Using TensorFlow Lite in Android Apps
+
+This chapter walks through the process of using TensorFlow lite in an Android app.
+
+I didn't spend much time on this chapter as I don't do Android development.
+
+## Chapter 14: Using TensorFlow Lite in iOS Apps
+
+This chapter walks through the process of using TensorFlow lite in an iOS app.
+
+I didn't spend much time on this chapter as I don't do iOS development.
+
+
+
 ## Taxonomy
 
 * __Autocorrelation__: The correlation of a signal with a delayed copy of itself as a function of delay.
