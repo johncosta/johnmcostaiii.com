@@ -418,6 +418,44 @@ RAG Evaluation Metrics:
 * Faithfulness: how accurate the generated text is
 * Answer Relevance: how relevant the generated text is to the query
 
+## Chapter 9: Multimodal Large Language Models
+
+A model that can process text and images is a multimodal model.
+
+Vision Transformer (ViT) is a model that uses the Transformer architecture to process images.
+
+ViT works by breaking an image into patches and then treating each patch as a token.
+
+Multimodal embeddings can be used to represent both text and images in the same vector space.
+
+CLIP is a model that can process both text and images.
+
+How CLIP Training works:
+
+1) Text and images are passed through separate encoders to generate embeddings
+2) The similarity between sentence and image embeddings is calculated using cosine similarity
+3) The text and image embeddings are trained to maximize the similarity between matching pairs and minimize the similarity between non-matching pairs
+
+Creating a multimodal model requires a lot of power and data. One option is to use pre-trained models.
+
+The Querying Transformer (Q-Transformer) is a model that can process both text and images.
+
+Q-Transformer trains in two stages, one for each modality.
+
+1) representation learning is applied for vision and language together
+2) representations converted to soft prompts for a generative model
+
+Then Q-Transformer is trained on:
+
+* Image-text contrastive learning
+* Image-text matching
+* Image-grounded text generation
+
+Use cases:
+
+1) Image captioning
+2) Multi-modal chat-based prompting
+
 
 
 
