@@ -173,7 +173,43 @@ This chapter walks through the process of using TensorFlow lite in an iOS app.
 
 I didn't spend much time on this chapter as I don't do iOS development.
 
+## Chapter 15: An Introduction to TensorFlow.js
 
+This chapter walks through the process of using TensorFlow.js and how you can train models in the browser.
+
+I didn't spend much time on this chapter.
+
+## Chapter 16: Coding Techniques for Computer vision in TensorFlow.js
+
+This chapter was another chapter that spend time on brower-based image classification.
+
+I didn't spend much time on this chapter.
+
+## Chapter 17: Reusing and Converting Python Models to JavaScript
+
+This chapter walks through the process of converting python-created models and converting them to TensorFlow.js.
+
+I didn't spend much time on this chapter.
+
+## Chapter 18: Tranfer Learning in JavaScript
+
+This chapter walks through the process of using transfer learning in TensorFlow.js.
+
+I didn't spend much time on this chapter.
+
+## Chapter 19: Deployment with TensorFlow Serving
+
+This chapter walks through the process of using TensorFlow Serving to deploy models.
+
+I didn't spend much time on this chapter.
+
+## Chapter 20: AI Ethics, Fairness, and Privacy
+
+This chapter covers some of the ethical considerations when using AI and machine learning.
+
+- Fairness
+- Facets
+- Federated Learning
 
 ## Taxonomy
 
