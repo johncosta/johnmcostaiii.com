@@ -456,7 +456,64 @@ Use cases:
 1) Image captioning
 2) Multi-modal chat-based prompting
 
+## Chapter 10: Creating Text Embedding Models
+Text Embedding models are the core of natural language processing applications.
 
+### Embedding Models
+Unstructured text data => hard to process
+
+convert text data => numerical vectors => easier to process, usable
+
+semantic nature of text => similar meaning => similar vectors
+
+### What is contrastive learning?
+
+Aims to teach models to differentiate between similar and dissimilar pairs of data points.
+
+Ex. Why is this a cat and not a dog?
+
+SBERT: Sentence-BERT is a modification of the BERT network that uses siamese and triplet network structures to derive
+semantically meaningful sentence embeddings.
+
+Sentence transformers architecture uses a siamese network to generate sentence embeddings.
+
+### Creating an Embedding Model
+
+1) Generate constrastive examples
+2) Train the model
+3) Evaluate the model
+
+#### Generating Contrastive Examples
+
+Start with a premise and generate positive and negative examples.
+
+Use GLUE benchmark datasets to generate contrastive examples.
+
+#### Training the Model
+
+1) define an evaluator
+2) use Semantic Textual Similarity Benchmark (STSB)
+3) use the evaluator to get performance
+
+For more in-depth testing, consider MTEB benchmark.
+
+Use cosine similarity loss function to train the model.
+
+## Fine-tuning an embedding model
+
+Supervised is the most straight forward way to fine-tune an embedding model.
+
+Unsupervised approach: Transfomer-Based Sequential Denoising Auo-Encoder (TSDAE)
+
+1) Add noise to the input text
+2) Train the model to reconstruct the original text from the noisy input
+3) Use the trained model to generate embeddings for new text data
+
+## Chapter 11: Fine-Tuning Representation Models for Classification
+
+
+
+## Chapter 12: Fine-Tuning Generation Models
 
 
 ## Taxonomy
@@ -531,3 +588,5 @@ References:
 * [Introduction to Information Retrieval](https://nlp.stanford.edu/IR-book/html/htmledition/irbook.html)
 * [Evaluation in information retrieval](https://nlp.stanford.edu/IR-book/html/htmledition/evaluation-in-information-retrieval-1.html)
 * [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://proceedings.neurips.cc/paper/2020/file/6b493230205f780e1bc26945df7481e5-Paper.pdf)
+* [UKPLab Sentence Transformers](https://github.com/UKPLab/sentence-transformers)
+* [https://gluebenchmark.com/](https://gluebenchmark.com/)
