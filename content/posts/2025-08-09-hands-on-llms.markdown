@@ -511,10 +511,44 @@ Unsupervised approach: Transfomer-Based Sequential Denoising Auo-Encoder (TSDAE)
 
 ## Chapter 11: Fine-Tuning Representation Models for Classification
 
+### Supervised Classification
 
+![SupervisedClassification.drawio.png](https://johnmcostaiii.com/img/transformers/SupervisedClassification.drawio.png)
+
+BERT & Feed-Forward Neural Network learn from one another during fine-tuning.
+
+### Few-Shot Classification
+
+When labeled data is scarce, few-shot classification can be used to fine-tune a representation model for classification.
+
+SetFit is a framework for few-shot classification that uses contrastive learning to fine-tune a representation model.
+
+### Continued Pre-training with Masked Language Modeling (MLM)
+
+Continued pre-training with MLM can be used to adapt a representation model to a specific domain or task.
+
+1) Pretraining from scratch
+2) Continued pre-training from a pre-trained model
+3) Fine-tuning for a specific task
+
+### Named Entity Recognition (NER)
+
+Named Entity Recognition (NER) is the task of identifying and classifying named entities in text.
 
 ## Chapter 12: Fine-Tuning Generation Models
 
+### Three LLM Training Steps: Pretraining, Supervised, Fine-tuning, and Preference Tuning
+
+Steps to creating a high quality LLM:
+
+1) Language Modeling
+  Pre-train on one or more massive text datasets => produces a base model
+2) Fine-Tuning 1 (Supervised Fine-Tuning or SFT)
+  Aims to predict the next token based on an input that has additional labels.
+3) Fine-Tuning 2 (Preference tuning)
+  Final step to improve quality of model, align with AI Safety or human preferences.
+
+Untrained -> Base -> Instruction Fine-Tuned -> Preference Tuned
 
 ## Taxonomy
 
