@@ -456,8 +456,99 @@ Use cases:
 1) Image captioning
 2) Multi-modal chat-based prompting
 
+## Chapter 10: Creating Text Embedding Models
+Text Embedding models are the core of natural language processing applications.
 
+### Embedding Models
+Unstructured text data => hard to process
 
+convert text data => numerical vectors => easier to process, usable
+
+semantic nature of text => similar meaning => similar vectors
+
+### What is contrastive learning?
+
+Aims to teach models to differentiate between similar and dissimilar pairs of data points.
+
+Ex. Why is this a cat and not a dog?
+
+SBERT: Sentence-BERT is a modification of the BERT network that uses siamese and triplet network structures to derive
+semantically meaningful sentence embeddings.
+
+Sentence transformers architecture uses a siamese network to generate sentence embeddings.
+
+### Creating an Embedding Model
+
+1) Generate constrastive examples
+2) Train the model
+3) Evaluate the model
+
+#### Generating Contrastive Examples
+
+Start with a premise and generate positive and negative examples.
+
+Use GLUE benchmark datasets to generate contrastive examples.
+
+#### Training the Model
+
+1) define an evaluator
+2) use Semantic Textual Similarity Benchmark (STSB)
+3) use the evaluator to get performance
+
+For more in-depth testing, consider MTEB benchmark.
+
+Use cosine similarity loss function to train the model.
+
+## Fine-tuning an embedding model
+
+Supervised is the most straight forward way to fine-tune an embedding model.
+
+Unsupervised approach: Transfomer-Based Sequential Denoising Auo-Encoder (TSDAE)
+
+1) Add noise to the input text
+2) Train the model to reconstruct the original text from the noisy input
+3) Use the trained model to generate embeddings for new text data
+
+## Chapter 11: Fine-Tuning Representation Models for Classification
+
+### Supervised Classification
+
+![SupervisedClassification.drawio.png](https://johnmcostaiii.com/img/transformers/SupervisedClassification.drawio.png)
+
+BERT & Feed-Forward Neural Network learn from one another during fine-tuning.
+
+### Few-Shot Classification
+
+When labeled data is scarce, few-shot classification can be used to fine-tune a representation model for classification.
+
+SetFit is a framework for few-shot classification that uses contrastive learning to fine-tune a representation model.
+
+### Continued Pre-training with Masked Language Modeling (MLM)
+
+Continued pre-training with MLM can be used to adapt a representation model to a specific domain or task.
+
+1) Pretraining from scratch
+2) Continued pre-training from a pre-trained model
+3) Fine-tuning for a specific task
+
+### Named Entity Recognition (NER)
+
+Named Entity Recognition (NER) is the task of identifying and classifying named entities in text.
+
+## Chapter 12: Fine-Tuning Generation Models
+
+### Three LLM Training Steps: Pretraining, Supervised, Fine-tuning, and Preference Tuning
+
+Steps to creating a high quality LLM:
+
+1) Language Modeling
+  Pre-train on one or more massive text datasets => produces a base model
+2) Fine-Tuning 1 (Supervised Fine-Tuning or SFT)
+  Aims to predict the next token based on an input that has additional labels.
+3) Fine-Tuning 2 (Preference tuning)
+  Final step to improve quality of model, align with AI Safety or human preferences.
+
+Untrained -> Base -> Instruction Fine-Tuned -> Preference Tuned
 
 ## Taxonomy
 
@@ -531,3 +622,5 @@ References:
 * [Introduction to Information Retrieval](https://nlp.stanford.edu/IR-book/html/htmledition/irbook.html)
 * [Evaluation in information retrieval](https://nlp.stanford.edu/IR-book/html/htmledition/evaluation-in-information-retrieval-1.html)
 * [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://proceedings.neurips.cc/paper/2020/file/6b493230205f780e1bc26945df7481e5-Paper.pdf)
+* [UKPLab Sentence Transformers](https://github.com/UKPLab/sentence-transformers)
+* [https://gluebenchmark.com/](https://gluebenchmark.com/)
