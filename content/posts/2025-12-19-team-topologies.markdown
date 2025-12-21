@@ -43,6 +43,25 @@ Obstacles to fast flow:
 - team pulled in too many directions
 - Painful re-orgs
 
+## Chapter 2: Conways Law and why it matters
+
+Overview:
+- Conway's law: organizations design systems that mirror their communication structure
+- organization constraints impact software architecture
+- everyone communicating with everyone is not scaleable
+- choose team structures that align with desired software architecture
+- limiting communication paths improves flow
+
+Team assignments are the first draft of the architecture.
+
+For a safe rapid flow of change, team structures must align with the desired software architecture.
+
+Not all communication and collaboration is good.
+
+Repeated re-orgs damage team morale and productivity, create fiefdoms, and lead to loss of institutional knowledge.
+
+Conways law is a fundamental principle that must be considered when designing both software systems and organizational structures.
+
 ## Taxonomy
 
 
