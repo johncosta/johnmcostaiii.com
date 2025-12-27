@@ -16,7 +16,7 @@ jobs:
     steps:
       - name: broken-link-check
         id: link-report
-        uses: celinekurpershoek/link-checker@v1.0.2
+        uses: celinekurpershoek/link-checker@v1.0.3
         with:
           url: "https://..."
           ignorePatterns: "github,google"
