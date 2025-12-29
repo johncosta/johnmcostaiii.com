@@ -62,6 +62,36 @@ Repeated re-orgs damage team morale and productivity, create fiefdoms, and lead 
 
 Conways law is a fundamental principle that must be considered when designing both software systems and organizational structures.
 
+## Chapter 3: Team First Thinking
+
+Overview:
+- Teams are more effective than individuals for software delivery
+- Multi-team groomings should follow Dunbars number
+- Max cogntive load for a team should be less than the total cognitive load of its members
+- Establish clear team boundaries and responsibilities
+- For success, change the team working environment
+
+Small long-lived teams are more effective than large short-lived teams.
+Smaller size creates better trust
+Needs of the team:
+- Arrive for stand-ups on time
+- Keep discussions and investigations on track
+- encourage a focus on team goals
+- unblock other team members
+- mentor new or less experienced team members
+- avoid "winning" arguments - explore options together
+
+Limit the number and type of domains per team
+- assign each domain to a single team
+- single team should be able to accommodate 2-3 simple domains
+- team responsible for a complex domain should not have any more domains assinged to them
+- avoid a single team responsible for two complicated domains
+
+Match software boundary size to team cognative load
+Design Team APIs
+Facilitate team interactions to build trust
+Engineering Practices are foundational
+
 ## Taxonomy
 
 
