@@ -84,13 +84,52 @@ Needs of the team:
 Limit the number and type of domains per team
 - assign each domain to a single team
 - single team should be able to accommodate 2-3 simple domains
-- team responsible for a complex domain should not have any more domains assinged to them
+- team responsible for a complex domain should not have any more domains assigned to them
 - avoid a single team responsible for two complicated domains
 
-Match software boundary size to team cognative load
+Match software boundary size to team cognitive load
 Design Team APIs
 Facilitate team interactions to build trust
 Engineering Practices are foundational
+
+## Chapter 4: Static Team Topologies
+
+Overview:
+- constant change in team structures is detrimental
+- critical considerations for team design
+  - Technical/Cultural maturity
+  - Org scale
+  - Engineering discipline
+- feature team/product team works in a supportive environment
+
+Anti-patterns:
+- Ad Hoc Teams
+- Shuffling team members
+
+Design For Flow Change
+- low friction software delivery
+- Spotify Model
+  - squads
+  - tribes are collection of squads
+  - testers across squads are a chapter
+
+Shape team intercommunication to enable flow and sensing
+- organization optimized for flow of change avoids transition handoffs
+
+DevOps and the DevOps Topologies
+- [DevOps Topologies Catalog](https://web.devopstopologies.com/)
+
+Successful Team Patterns
+- Feature Teams require high engineering maturity and trust
+- Product teams Need a support system
+- Cloud teams don't create application infrastructure
+- SRE makes sense at scale
+
+Considerations when choosing team topologies
+- Technical/Cultural Maturity
+- Organization Size, Software Scale, Engineering Maturity
+- Split responsibilities to break down silos
+- Dependencies and wait times between teams
 
 ## Taxonomy
 
