@@ -2,8 +2,8 @@
 title: "Book Notes: In this Economy? How Money & Markets Really Work"
 date: "2025-08-09"
 comments: true
-tags: ["economics", "book notes"]
-categories: ["econonmics"]
+tags: ["economics", "Economics", "Financial Markets", "Macroeconomics", "Personal Finance", "Economic Literacy", "Behavioral Finance"]
+categories: ["book notes"]
 ---
 
 ## Overview

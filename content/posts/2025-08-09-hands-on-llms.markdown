@@ -2,8 +2,8 @@
 title: "Book Notes: Hands On Large Language Models: Language Understanding and Generation"
 date: "2025-08-09"
 comments: true
-tags: ["software", "development", "ai", "llm", "book notes"]
-categories: ["software development", "artificial intelligence"]
+tags: ["Large Language Models", "Natural Language Processing", "Machine Learning", "Deep Learning", "Generative AI", "AI Engineering"]
+categories: ["book notes"]
 ---
 
 ## Overview
