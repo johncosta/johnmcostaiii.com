@@ -73,6 +73,24 @@ Project Planning Rules:
 
 Brook's Law: Adding manpower to a late software project makes it later.
 
+## Chapter 3: The Surgical Team
+
+Team Composition
+- 1 Surgeon: chief programmer, system architect
+- 1 Co-Pilot: backup programmer, assistant architect
+- 1 Administrator: handles clerical work
+- 1 Editor: proofreads documentation
+- 2 Secretaries: handle typing
+- 1 program clerk: maintains program library
+- 1 Toolsmith: builds and maintains programming tools
+- 1 Tester: designs and runs tests
+- 1 Language Lawyer: expert in programming language
+
+1) Surgeon and Co-Pilot do all design and coding
+2) Surgeon makes unilateral decisions
+
+
+
 ## Taxonomy
 
 ## References:
