@@ -89,7 +89,28 @@ Team Composition
 1) Surgeon and Co-Pilot do all design and coding
 2) Surgeon makes unilateral decisions
 
+## Chapter 4: Aristocracy, Democracy, and System Design
 
+Conceptual integrity: system has a single, consistent design approach
+- Most important consideration in system design
+- Purpose: Ease of use
+
+Ratio of function to conceptual complexity: test of system design
+
+Aristocracy and Democracy
+- Conceptual Integrity -> design from one mind, or from a very small number of agreeing resonant minds
+- Scheduling Pressures -> Many hands
+
+1) division of labor between architecture and implementation
+2) structure programming implementation teams (surgical teams)
+
+Separation of architectural effort from implementation effort is essential to conceptual integrity for large projects.
+- Architecture: Complete and detailed specification of the user interface
+- Architect: user's agent, professional/technical knowledge
+- Architecture: What
+- Implementation: How
+
+Good features/ideas that do not integrate with the system should be dropped.
 
 ## Taxonomy
 
