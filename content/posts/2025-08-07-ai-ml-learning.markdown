@@ -2,8 +2,8 @@
 title: "Book Notes: AI and Machine Learning for Coders - A Programmer's Guide to Artificial Intelligence"
 date: "2025-08-07"
 comments: true
-tags: ["software", "development", "ai", "machine learning", "book notes"]
-categories: ["software development", "artificial intelligence"]
+tags: ["Machine Learning", "Artificial Intelligence", "Deep Learning", "Software Engineering", "Applied AI", "Developer Tools"]
+categories: ["book notes"]
 ---
 
 ## Overview
