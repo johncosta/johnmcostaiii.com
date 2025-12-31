@@ -35,8 +35,44 @@ The Woes of the Craft
 
 Challenge and Mission: to find real solutions to real problems on actual schedules with available resources.
 
+## Chapter 2: The Mythical Man-Month
+
+Calendar Time Causes Issues
+1) Estimating is poorly developed
+2) Estimating techniques confuses effort with progress
+3) Estimates are uncertain
+4) Schedule progress is poorly monitored
+5) Natural Reaction to Schedule Slippage is to add manpower
+
+Optimism: All programmers are optimists
+
+Creative activities:
+1) idea
+2) implementation
+3) interaction
+
+Incompleteness and Inconsistencies become clear during implementation.
+
+### The man-month
+
+Cost = # of programmers * number of months
+
+The bearing of a child takes 9 months, no matter how many women are assigned.
+
+Project Planning Rules:
+- 1/3 Planning
+- 1/6 Coding
+- 1/4 component/system test
+- 1/4 system test
+
+### Gutless Estimating
+
+- Develop and Publicize productivity Figures
+- bug-incidence figures
+- estimating rules
+
+Brook's Law: Adding manpower to a late software project makes it later.
 
 ## Taxonomy
-
 
 ## References:
