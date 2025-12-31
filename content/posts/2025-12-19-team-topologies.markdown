@@ -2,8 +2,8 @@
 title: "Book Notes: Team Topologies: Organizing Business and Technology Teams for Fast Flow"
 date: "2025-12-19"
 comments: true
-tags: ["organizational philosophy", "book notes"]
-categories: ["organizational philosophy"]
+tags: ["Team Topologies", "Team Design", "Organizational Design", "Software Architecture", "Platform Engineering", "DevOps", "organizational philosophy"]
+categories: ["book notes"]
 ---
 
 ## Overview
