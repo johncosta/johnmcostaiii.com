@@ -112,6 +112,68 @@ Separation of architectural effort from implementation effort is essential to co
 
 Good features/ideas that do not integrate with the system should be dropped.
 
+## Chapter 5: The Second-System Effect
+
+Architect: works against a budget
+Iteration: bids->estimation upward, design downward
+
+High Estimate:
+- cut the design or
+- challenge the estimate by suggesting cheaper implementations
+
+things to remember:
+- builder has inventive/creative responsibility -> suggest, not dictate
+- suggest a way of implementing anything specified, accept any other way to meet objectives
+- deal quietly and privately w/ suggestions
+- forgo credit for ideas suggested
+
+### Self-Discipline
+
+First Work -> Spare and Clean
+Second system -> tendency to over design
+
+## Chapter 6: Passing the Word
+
+### Written Specifications
+
+Manual: External Specification
+- describes and prescribes every detail
+
+Formal Definitions
+- precise definitions
+
+A programmed simulator can be used as a formal definition
+
+### Conferences and Courts
+
+Meetings are necessary
+- Weekly half-day conference of all architects
+    - propose problems/changes distributed in writing
+    - discuss and decide
+    - chief architect decides if no consensus
+    - minutes kept and distributed
+    - appeals possible
+- Annual court session
+    - two week long meeting
+    - backlog of minor appeals, open issues, disgruntlements
+
+Benefits:
+- same group: no time needed to bring people up to date
+- well versed in project: better decisions
+- deeply involved in outcome
+- problems -> solution within boundaries
+- formality of proposals focuses attention and forces decision
+- vesting of decision in chief architect avoids compromise and delay
+
+### Telephone Log
+- Record each question and answer
+- Logs of architects are concatenated, produced, and distributed weekly
+
+### Product Test
+- independent technical auditing group
+- customer is independent auditing group
+
+
 ## Taxonomy
 
 ## References:
