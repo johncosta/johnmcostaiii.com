@@ -131,6 +131,102 @@ Considerations when choosing team topologies
 - Split responsibilities to break down silos
 - Dependencies and wait times between teams
 
+## Chapter 5: The Four Fundamental Team Topologies
+
+### Stream-Aligned Teams
+- continuous flow of work aligned to a business domain or organizational capability
+- aligned to a single, valuable stream of work
+  Could be:
+  - product or service
+  - single set of features
+  - single user journey
+  - single user persona
+  Different Streams:
+  - specific customer
+  - business-area
+  - geography
+  - product
+  - user-persona
+  funded:
+  - long-term
+  - sustainable
+- no handoffs to other teams
+
+#### Capabilities
+- App Security
+- Commercial
+- Design/Architecture
+- Development/Coding
+- Infra/Operation
+- Metrics/Monitoring
+- Product management and ownership
+- Testing/quality
+- UX
+
+Stream-Aligned naming incorporates the sense of flow
+
+#### Behaviors:
+- produce steady flow of work
+- course correct based on feedback
+- learn and adapt
+- zero handoffs
+- evaluated on sustainable flow
+- time and space for quality
+- reaches out to fundamental-topologies teams
+- Goal: autonomy, mastery, purpose
+
+### Enabling Teams
+- Composed of specialists in a given technical domain and bridge capability gap
+
+#### Behaviors:
+- seek to understand need of stream-aligned teams
+- stay's on top of developments in their domain
+- messenger of both good news and bad news
+- proxy for services (internal/external)
+- promotes learning
+
+### Complicated Subsystem Teams
+- responsible for areas that require specialized knowledge and expertise
+
+### Behaviors
+- mindful of current stage of development
+- collaborates closely with stream-aligned teams
+- higher delivery speed and quality
+
+### Platform Teams
+- enable the stream-aligned teams to deliver work
+
+#### Behaviors
+- stream-aligned teams
+- fast prototyping techniques and involves stream-aligned teams for feedback
+- focus on usability and reliability
+- leads by example
+- understands adoption not immediate
+
+#### Good platforms
+- force multiplier
+- standards
+- templates
+- APIs
+- best practices
+
+Thinnest Viable Platform (TVP)
+- balance between keeping platform small and ensuring platform helps accelerate software delivery
+- don't let the platform dominate the discourse
+- reduces complexity while exposing functionality
+
+Platforms:
+- built on a platform mindset (platforms all the way down)
+- has users and defined active hours => reliability targets
+- designed for long term user needs
+
+### Common Team Conversion
+- Most teams should be long-lived, multidisciplined, stream-aligned teams
+- Infra teams -> Platform Teams
+- Components teams -> Platform or other teams
+- Tooling Teams -> Enabling or Platform Teams
+- Architecture team -> Enabling Team
+
 ## Taxonomy
 
 
