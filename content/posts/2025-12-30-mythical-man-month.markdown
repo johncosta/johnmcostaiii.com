@@ -248,6 +248,38 @@ Estimating misses often due to missed:
 Productivity = thought per statement + errors it includes
 Productive time = x5 when high-level language used
 
+## Chapter 9: Ten Pounds in a Five-Pound Sack
+
+### Program Space as Cost
+
+Size is a large part of the user cost of a programming system product
+
+Size itself isn't bad, but unnecessary size is.
+
+### Size Control
+
+Project Manager: size control = technical and managerial
+
+1) budget for all aspects of size
+set total size budgets as well as space budgets for major components
+
+2) Define exactly what a module must do when you specify how big it must be.
+
+3) Total-system, user-oriented attitude may be the most important function of the programming manager
+
+### Space Techniques
+
+Space Budgeting + Control != small program
+small programs require invention and craftsmanship
+
+Space time tradeoffs
+- ensure team is trained in programming technique
+- recognize programming has a technology and components needs to be fabricated
+
+### Representation is the essence of programming
+
+rethinking the overall strategy (especially how data is represented) instead of code tricks can lead to innovation
+
 ## Taxonomy
 
 ## References:
