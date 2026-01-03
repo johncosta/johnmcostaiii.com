@@ -173,6 +173,61 @@ Benefits:
 - independent technical auditing group
 - customer is independent auditing group
 
+## Chapter 7: Why Did the Tower of Babel Fail?
+
+A successful project needs:
+- Clear Mission
+- Manpower
+- Materials
+- Time
+- Technology
+- Communication
+- Organization
+
+Options for communication:
+1) Informal: Telephone service, clear definition of intergroup dependencies
+2) Meetings: regular technical briefings
+3) Workbook: written records of decisions
+
+Project Workbook:
+- What: structure of documents
+- Why:
+  1) early design of structure ensures structure is crafted
+  2) control of distribution of information
+- Mechanics:
+  1) Everyone should have access
+  2) Timely updates
+  3) Continual Maintenance: diff of change, summary of changes
+
+Organization:
+- Purpose: reduce communication/coordination overhead
+- Principle: No man can serve two masters
+- Organization: division of labor + specialization of function
+- Organization subtree need:
+  1) mission
+  2) producer
+  3) technical director/architect
+  4) division of labor
+  5) interface definitions among parts
+- Role of Producer:
+  - assembles team, divides work, establish schedule, acquires resources
+  - Establishes communication outside team, upwards and sideways
+  - Ensures schedule met, shifting resources and organization
+- Role of Technical Director/Architect:
+  - conceives design to be built, identifies sub-parts, specifies how it will look
+  - unity and conceptual integrity
+  - invents solutions and shifts design to solve technical problems
+- Producer could be the same as Technical Director/Architect
+  - strong management and strong technical talen is rarely found in one person
+
+Rare: Thinkers
+Doers: Rarer
+Thinker-Doers: Rarest
+
+- Producer might be boss w/ director as right hand
+- Director might be boss w/ producer as right hand
+
+
 
 ## Taxonomy
 
