@@ -280,6 +280,47 @@ Space time tradeoffs
 
 rethinking the overall strategy (especially how data is represented) instead of code tricks can lead to innovation
 
+## 10: The Documentary Hypothesis
+
+### Documents for a Computer Product
+
+#### Critical Documents
+
+- Objectives: defines need to be met and goals, constraints, and priorities
+- Specifications: defines what the product must do to meet objectives
+- Schedule
+- Budget: existance forces technical decisions that would be avoided otherwise
+- Organization Chart
+- Space allocations
+- Estimate, forcast, prices
+
+#### Documents for a university department
+
+- Objectives
+- Course Descriptions
+- Degree requirements
+- Research proposals
+- Class Schedule and teaching assignments
+- Budget
+- Space allocation
+- Assignment of staff and graduate students
+
+#### Documents for a Software Project
+- Objectives
+- Product Specifications
+- Schedule
+- Budget
+- Space allocation
+- Organization chart
+
+### Why have formal documents
+
+1) writing decisions down
+2) documents communicate decisions
+3) documents provide database and checklist for management
+4) A written plan is precise and communicable
+
+
 ## Taxonomy
 
 ## References:
