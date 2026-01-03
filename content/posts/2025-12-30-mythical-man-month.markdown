@@ -227,7 +227,26 @@ Thinker-Doers: Rarest
 - Producer might be boss w/ director as right hand
 - Director might be boss w/ producer as right hand
 
+## Chapter 8: Calling the Shot
 
+### Estimating
+
+What not to do:
+- estimate coding portion and apply ratios from earlier
+- errors in the estimate or ratios could lead to large errors in schedule
+
+small program estimation != large program estimation
+
+Estimating misses often due to missed:
+- short unrelated jobs
+- meetings
+- paperwork
+- company business
+- sickness
+- personal time
+
+Productivity = thought per statement + errors it includes
+Productive time = x5 when high-level language used
 
 ## Taxonomy
 
