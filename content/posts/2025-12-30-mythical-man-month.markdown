@@ -320,6 +320,59 @@ rethinking the overall strategy (especially how data is represented) instead of 
 3) documents provide database and checklist for management
 4) A written plan is precise and communicable
 
+## Chapter 11: Plan to Throw One Away
+
+Use a pilot project and throw it away to learn about the problem and solution space.
+
+### The only constancy is change itself
+
+As projects progress, actual need and perception of need change.
+
+### Plan the system for change
+
+Use:
+- modular design
+- subroutines
+- definition of intermodule interfaces
+- documentation
+- high-level language
+- self-documenting techniques
+- numbered versions
+
+### Plan the organization for change
+
+plans as tentative:
+- plans
+- milestones
+- schedules
+
+Keep 2-3 developers unassigned to specific tasks to handle unexpected changes.
+
+Reassignment from technical to managerial should be "reassignment".
+
+Surgical Type programming teams helps solve management problems of change..
+
+### Two steps forward, one step back
+
+Changes after delivery are "program maintenance"
+- repair design defects
+- maintenance costs ~40% more
+
+Fixing a defect has 20-50% chance of introducing another defect.
+- regression testing is essential, but costly
+
+## One step forward, one step back
+
+Repairs
+- destroy structure
+- increase entropy
+- increase disorder
+- less focus on fixing design flaws
+- more focus on fixing bugs introduced by fixes
+
+Systems building: entropy-decreasing process
+
+Program Maintenance: entropy-increasing process
 
 ## Taxonomy
 
