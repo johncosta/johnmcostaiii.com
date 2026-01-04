@@ -435,6 +435,49 @@ Pros:
 - useful
 - improves debugging
 
+## Chapter 13: The Whole and the Parts
+
+### Designing the Bugs Out
+
+Conceptual integrity addresses problems of mismatched assumptions among parts.
+
+Design the Product
+- function definition
+- careful specification
+- exorcism of frills of function
+
+Testing the Specification
+- review by users
+
+Top-down Design
+- Design as sequence of refinements
+- architecture -> implementation -> realization
+- rough tasks -> rough solution, repeat until detailed design
+- avoids bugs:
+  - clarity of struction/representation
+  - partitioning and independence
+  - suppression of detail
+  - tested at refinement
+
+Structured Programming
+- design programs whose structures consist only of loops and conditionals
+
+### Component Debugging
+
+1) On-machine debugging
+2) Memory Dumps
+3) Snapshots
+4) Interactive Debugging
+5) Test Cases
+
+### System Debugging
+
+1) Use debugged components
+2) Build plenty of scaffolding
+3) Control Changes
+4) Add one component at a time
+5) Quantize updates
+
 ## Taxonomy
 
 ## References:
