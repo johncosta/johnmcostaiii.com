@@ -374,6 +374,67 @@ Systems building: entropy-decreasing process
 
 Program Maintenance: entropy-increasing process
 
+## Chapter 12: Sharp Tools
+
+1) individualized tools hamper communication
+2) tool lifetime: technology changes when machine or working environment changes
+3) more efficient: common development and maintenance tools
+
+Manager needs to set aside time and resources for tool building and maintenance.
+
+What tools?
+- computer facility
+- operating system
+- language
+- utilities
+- debugging aids
+- test-case generators
+- text-processing system
+
+### Target Machines
+
+Target Machine: machine for which program is written
+Vehicle Machine: machine on which program is developed
+
+Target Facility: target machines + operators and system programmer
+- The book mentions some target specs that are likely outdated now.
+
+Debugging machine: vehicle machine + debugging aids
+
+### Vehicle Machines and Data Services
+
+Simulators: vehicle machine simulates target machine that's dependable but not necessarily accurate
+Compiler and assembler: compile code for the target system
+Programming library and accounts:
+- group/programmer had area where copies of code is kept
+- when ready, copy passed to manager for integration
+- only manager could make changes
+Programming Tools: Toolsmith builds and maintains programming tools
+Documentation System: saves the most labor
+- Too much documentation:  provide a map to work through important docs or work to reduce bulk
+- Too little documentation: is a problem
+Performance Simulator: required
+
+### High-Level Language and Interactive Programming
+
+Most important tools:
+1) High-level language
+2) Interactive programming system
+
+#### High-level language
+Pros:
+- improves productivity
+- debugging speed
+Cons:
+- not flexible enough
+- too big
+- too slow
+
+#### Interactive Programming
+Pros:
+- useful
+- improves debugging
+
 ## Taxonomy
 
 ## References:
