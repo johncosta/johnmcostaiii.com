@@ -227,6 +227,47 @@ Platforms:
 - Tooling Teams -> Enabling or Platform Teams
 - Architecture team -> Enabling Team
 
+## Chapter 6: Choose Team First Boundaries
+
+Overview:
+- Monoliths can be hidden by team boundaries
+- Consider software boundaries when necessary and suitable
+
+Flow:
+- difficult when teams interactions are complicated
+
+### Team First Approach to Software Responsibilities
+
+software delivery problems
+- unclear boundaries between teams & responsibilities
+- tight coupling between teams
+
+monolith -> loosely coupled services
+- consider affect to teams
+
+### Hidden Monoliths
+- Application Monoliths: single, large application w/ many dependencies
+- Joined at the database Monoliths: multiple applications sharing a single database
+- Monolithic Builds: one gigantic continious-integration to build a version
+- Monolithic Release: smaller components bundled together into a release
+- Monolithic Model: single domain langauage and representation
+- Monolithic Thinking: one size fits all approach to team design
+- Monolithic Workplace: single, open office layout for all teams
+
+### Software Boundaries or Fracture Planes
+
+Fracture Plane: natural seam, allows system to be split into parts
+
+- Business Domain Bounded Context: e.g. Domain Driven Design
+- Regulatory Compliance: Split on sub-systems that are in different scopes of regulation
+- Change Cadence: separate parts of the system that change at different rates
+- Team Location: separate teams in different locations
+- Risk: subsystems with different risk profiles
+- Performance Isolation: subsystems with different performance requirements
+- Technology: subsystems using different technologies
+- User Personas: subsystems serving different user personas
+
+
 ## Taxonomy
 
 
